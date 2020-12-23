@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CekGirisi" targetNamespace="http://tempuri.org/CekGirisi.xsd" xmlns:mstns="http://tempuri.org/CekGirisi.xsd" xmlns="http://tempuri.org/CekGirisi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CekGirisi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CekGirisi" msprop:Generator_UserDSName="CekGirisi">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CEKGIRISI" msprop:Generator_TableClassName="CEKGIRISIDataTable" msprop:Generator_TableVarName="tableCEKGIRISI" msprop:Generator_RowChangedName="CEKGIRISIRowChanged" msprop:Generator_TablePropName="CEKGIRISI" msprop:Generator_RowDeletingName="CEKGIRISIRowDeleting" msprop:Generator_RowChangingName="CEKGIRISIRowChanging" msprop:Generator_RowEvHandlerName="CEKGIRISIRowChangeEventHandler" msprop:Generator_RowDeletedName="CEKGIRISIRowDeleted" msprop:Generator_RowClassName="CEKGIRISIRow" msprop:Generator_UserTableName="CEKGIRISI" msprop:Generator_RowEvArgName="CEKGIRISIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CEKNO" msprop:Generator_ColumnVarNameInTable="columnCEKNO" msprop:Generator_ColumnPropNameInRow="CEKNO" msprop:Generator_ColumnPropNameInTable="CEKNOColumn" msprop:Generator_UserColumnName="CEKNO" type="xs:string" minOccurs="0" />
+              <xs:element name="VADETARIHI" msprop:Generator_ColumnVarNameInTable="columnVADETARIHI" msprop:Generator_ColumnPropNameInRow="VADETARIHI" msprop:Generator_ColumnPropNameInTable="VADETARIHIColumn" msprop:Generator_UserColumnName="VADETARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BANKA" msprop:Generator_ColumnVarNameInTable="columnBANKA" msprop:Generator_ColumnPropNameInRow="BANKA" msprop:Generator_ColumnPropNameInTable="BANKAColumn" msprop:Generator_UserColumnName="BANKA" type="xs:string" minOccurs="0" />
+              <xs:element name="BELGENO" msprop:Generator_ColumnVarNameInTable="columnBELGENO" msprop:Generator_ColumnPropNameInRow="BELGENO" msprop:Generator_ColumnPropNameInTable="BELGENOColumn" msprop:Generator_UserColumnName="BELGENO" type="xs:string" minOccurs="0" />
+              <xs:element name="SUBE" msprop:Generator_ColumnVarNameInTable="columnSUBE" msprop:Generator_ColumnPropNameInRow="SUBE" msprop:Generator_ColumnPropNameInTable="SUBEColumn" msprop:Generator_UserColumnName="SUBE" type="xs:string" minOccurs="0" />
+              <xs:element name="TUTAR" msprop:Generator_ColumnVarNameInTable="columnTUTAR" msprop:Generator_ColumnPropNameInRow="TUTAR" msprop:Generator_ColumnPropNameInTable="TUTARColumn" msprop:Generator_UserColumnName="TUTAR" type="xs:string" minOccurs="0" />
+              <xs:element name="DIZIID" msprop:Generator_ColumnVarNameInTable="columnDIZIID" msprop:Generator_ColumnPropNameInRow="DIZIID" msprop:Generator_ColumnPropNameInTable="DIZIIDColumn" msprop:Generator_UserColumnName="DIZIID" type="xs:int" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

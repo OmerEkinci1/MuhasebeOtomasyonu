@@ -1,0 +1,21 @@
+aÇIK FATURA:Faturayý müþteriye keseriz ama bir ödeme almayýz.Açýk hesap þeklinde çalýþýrýz.Müþterilere bir vade vermiþizdir.o vade geldiðinde müþteri bize fatura bedelini (ödemeyi) yapar.ödemeyi hemen almayýz.
+kapalý fatura:fatura yý müþteriye kestiðimiz an ödemeyi müþterimizden anýnda ödemeyi aldýðýmýz manasýna gelir .muhasebede kapalý fatura olarak geçer bu iþlem.müþteriyi borçlandýrýr ve hemen ardýndan alacaklandýrýrýz.
+
+
+Müþteri Çeki :herhangi bir müþterimizden aldýðýmýz çek.
+
+
+
+
+Senet iþlemleri Çek iþlemlerinin aynýsýdýr.
+
+
+
+Açýk fatura kestiðimiz zaman cari hareket kaydý atýyoduk
+Kapalý fatura kestiðimiz zaman ise cari hareket kaydýnýn yanýnda banka hareketi veya kasa hareketide ekliyoruz. 
+eðer bir fatura kapalý fatura ise iki adet cari hareket iþleniyor.bir borç birde alacak için.Çünkü kapalý faturada cariden biz hemen parayý alýyoru.bu yüzden caride bir borç yada alacak olmuyor .sýfýrlanýyor.
+
+
+
+Satýþ Ýade faturasý ile Alýþ Faturasý ayný iþlemlerdir.
+Satýþ Faturasý ile Alýþ Ýade faturasý ayný iþlemlerdir.

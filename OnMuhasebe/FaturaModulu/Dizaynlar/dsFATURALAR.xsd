@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFATURALAR" targetNamespace="http://tempuri.org/dsFATURALAR.xsd" xmlns:mstns="http://tempuri.org/dsFATURALAR.xsd" xmlns="http://tempuri.org/dsFATURALAR.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="KARIYER2012ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="KARIYER2012ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OnMuhasebe.Properties.Settings.GlobalReference.Default.KARIYER2012ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DIZFATURALARTableAdapter" GeneratorDataComponentClassName="DIZFATURALARTableAdapter" Name="DIZFATURALAR" UserDataComponentName="DIZFATURALARTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="KARIYER2012ConnectionString (Settings)" DbObjectName="KARIYER2012.dbo.DIZFATURALAR" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CARIKODU, CARIISIM, ADRES, IL, ILCE, TELEFON, FAX, WEB, EMAIL, VERGIDAIRESI, VERGINUMARASI, FATURANO, TARIH, VADETARIHI, TURU, TIPI, ACIKLAMA, STOKKODU, STOKADI, BIRIM, BARKOD, 
+                         SATISFIYAT1, GCKOD, MIKTAR, BRUTFIYAT, ISK1, ISK2, KDV, BIRIMFIYAT, TOPLAM, ISKONTO, TOPLAMBRUT, TOPLAMISKONTO, TOPLAMARA, TOPLAMKDV, TOPLAMGENEL
+FROM            DIZFATURALAR</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CARIKODU" DataSetColumn="CARIKODU" />
+              <Mapping SourceColumn="CARIISIM" DataSetColumn="CARIISIM" />
+              <Mapping SourceColumn="ADRES" DataSetColumn="ADRES" />
+              <Mapping SourceColumn="IL" DataSetColumn="IL" />
+              <Mapping SourceColumn="ILCE" DataSetColumn="ILCE" />
+              <Mapping SourceColumn="TELEFON" DataSetColumn="TELEFON" />
+              <Mapping SourceColumn="FAX" DataSetColumn="FAX" />
+              <Mapping SourceColumn="WEB" DataSetColumn="WEB" />
+              <Mapping SourceColumn="EMAIL" DataSetColumn="EMAIL" />
+              <Mapping SourceColumn="VERGIDAIRESI" DataSetColumn="VERGIDAIRESI" />
+              <Mapping SourceColumn="VERGINUMARASI" DataSetColumn="VERGINUMARASI" />
+              <Mapping SourceColumn="FATURANO" DataSetColumn="FATURANO" />
+              <Mapping SourceColumn="TARIH" DataSetColumn="TARIH" />
+              <Mapping SourceColumn="VADETARIHI" DataSetColumn="VADETARIHI" />
+              <Mapping SourceColumn="TURU" DataSetColumn="TURU" />
+              <Mapping SourceColumn="TIPI" DataSetColumn="TIPI" />
+              <Mapping SourceColumn="ACIKLAMA" DataSetColumn="ACIKLAMA" />
+              <Mapping SourceColumn="STOKKODU" DataSetColumn="STOKKODU" />
+              <Mapping SourceColumn="STOKADI" DataSetColumn="STOKADI" />
+              <Mapping SourceColumn="BIRIM" DataSetColumn="BIRIM" />
+              <Mapping SourceColumn="BARKOD" DataSetColumn="BARKOD" />
+              <Mapping SourceColumn="SATISFIYAT1" DataSetColumn="SATISFIYAT1" />
+              <Mapping SourceColumn="GCKOD" DataSetColumn="GCKOD" />
+              <Mapping SourceColumn="MIKTAR" DataSetColumn="MIKTAR" />
+              <Mapping SourceColumn="BRUTFIYAT" DataSetColumn="BRUTFIYAT" />
+              <Mapping SourceColumn="ISK1" DataSetColumn="ISK1" />
+              <Mapping SourceColumn="ISK2" DataSetColumn="ISK2" />
+              <Mapping SourceColumn="KDV" DataSetColumn="KDV" />
+              <Mapping SourceColumn="BIRIMFIYAT" DataSetColumn="BIRIMFIYAT" />
+              <Mapping SourceColumn="TOPLAM" DataSetColumn="TOPLAM" />
+              <Mapping SourceColumn="ISKONTO" DataSetColumn="ISKONTO" />
+              <Mapping SourceColumn="TOPLAMBRUT" DataSetColumn="TOPLAMBRUT" />
+              <Mapping SourceColumn="TOPLAMISKONTO" DataSetColumn="TOPLAMISKONTO" />
+              <Mapping SourceColumn="TOPLAMARA" DataSetColumn="TOPLAMARA" />
+              <Mapping SourceColumn="TOPLAMKDV" DataSetColumn="TOPLAMKDV" />
+              <Mapping SourceColumn="TOPLAMGENEL" DataSetColumn="TOPLAMGENEL" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFATURALAR" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsFATURALAR" msprop:Generator_UserDSName="dsFATURALAR">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DIZFATURALAR" msprop:Generator_TableClassName="DIZFATURALARDataTable" msprop:Generator_TableVarName="tableDIZFATURALAR" msprop:Generator_RowChangedName="DIZFATURALARRowChanged" msprop:Generator_TablePropName="DIZFATURALAR" msprop:Generator_RowDeletingName="DIZFATURALARRowDeleting" msprop:Generator_RowChangingName="DIZFATURALARRowChanging" msprop:Generator_RowEvHandlerName="DIZFATURALARRowChangeEventHandler" msprop:Generator_RowDeletedName="DIZFATURALARRowDeleted" msprop:Generator_RowClassName="DIZFATURALARRow" msprop:Generator_UserTableName="DIZFATURALAR" msprop:Generator_RowEvArgName="DIZFATURALARRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CARIKODU" msprop:Generator_ColumnVarNameInTable="columnCARIKODU" msprop:Generator_ColumnPropNameInRow="CARIKODU" msprop:Generator_ColumnPropNameInTable="CARIKODUColumn" msprop:Generator_UserColumnName="CARIKODU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CARIISIM" msprop:Generator_ColumnVarNameInTable="columnCARIISIM" msprop:Generator_ColumnPropNameInRow="CARIISIM" msprop:Generator_ColumnPropNameInTable="CARIISIMColumn" msprop:Generator_UserColumnName="CARIISIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADRES" msprop:Generator_ColumnVarNameInTable="columnADRES" msprop:Generator_ColumnPropNameInRow="ADRES" msprop:Generator_ColumnPropNameInTable="ADRESColumn" msprop:Generator_UserColumnName="ADRES" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IL" msprop:Generator_ColumnVarNameInTable="columnIL" msprop:Generator_ColumnPropNameInRow="IL" msprop:Generator_ColumnPropNameInTable="ILColumn" msprop:Generator_UserColumnName="IL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ILCE" msprop:Generator_ColumnVarNameInTable="columnILCE" msprop:Generator_ColumnPropNameInRow="ILCE" msprop:Generator_ColumnPropNameInTable="ILCEColumn" msprop:Generator_UserColumnName="ILCE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TELEFON" msprop:Generator_ColumnVarNameInTable="columnTELEFON" msprop:Generator_ColumnPropNameInRow="TELEFON" msprop:Generator_ColumnPropNameInTable="TELEFONColumn" msprop:Generator_UserColumnName="TELEFON" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FAX" msprop:Generator_ColumnVarNameInTable="columnFAX" msprop:Generator_ColumnPropNameInRow="FAX" msprop:Generator_ColumnPropNameInTable="FAXColumn" msprop:Generator_UserColumnName="FAX" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WEB" msprop:Generator_ColumnVarNameInTable="columnWEB" msprop:Generator_ColumnPropNameInRow="WEB" msprop:Generator_ColumnPropNameInTable="WEBColumn" msprop:Generator_UserColumnName="WEB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMAIL" msprop:Generator_ColumnVarNameInTable="columnEMAIL" msprop:Generator_ColumnPropNameInRow="EMAIL" msprop:Generator_ColumnPropNameInTable="EMAILColumn" msprop:Generator_UserColumnName="EMAIL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VERGIDAIRESI" msprop:Generator_ColumnVarNameInTable="columnVERGIDAIRESI" msprop:Generator_ColumnPropNameInRow="VERGIDAIRESI" msprop:Generator_ColumnPropNameInTable="VERGIDAIRESIColumn" msprop:Generator_UserColumnName="VERGIDAIRESI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VERGINUMARASI" msprop:Generator_ColumnVarNameInTable="columnVERGINUMARASI" msprop:Generator_ColumnPropNameInRow="VERGINUMARASI" msprop:Generator_ColumnPropNameInTable="VERGINUMARASIColumn" msprop:Generator_UserColumnName="VERGINUMARASI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FATURANO" msprop:Generator_ColumnVarNameInTable="columnFATURANO" msprop:Generator_ColumnPropNameInRow="FATURANO" msprop:Generator_ColumnPropNameInTable="FATURANOColumn" msprop:Generator_UserColumnName="FATURANO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TARIH" msprop:Generator_ColumnVarNameInTable="columnTARIH" msprop:Generator_ColumnPropNameInRow="TARIH" msprop:Generator_ColumnPropNameInTable="TARIHColumn" msprop:Generator_UserColumnName="TARIH" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="VADETARIHI" msprop:Generator_ColumnVarNameInTable="columnVADETARIHI" msprop:Generator_ColumnPropNameInRow="VADETARIHI" msprop:Generator_ColumnPropNameInTable="VADETARIHIColumn" msprop:Generator_UserColumnName="VADETARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TURU" msprop:Generator_ColumnVarNameInTable="columnTURU" msprop:Generator_ColumnPropNameInRow="TURU" msprop:Generator_ColumnPropNameInTable="TURUColumn" msprop:Generator_UserColumnName="TURU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPI" msprop:Generator_ColumnVarNameInTable="columnTIPI" msprop:Generator_ColumnPropNameInRow="TIPI" msprop:Generator_ColumnPropNameInTable="TIPIColumn" msprop:Generator_UserColumnName="TIPI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACIKLAMA" msprop:Generator_ColumnVarNameInTable="columnACIKLAMA" msprop:Generator_ColumnPropNameInRow="ACIKLAMA" msprop:Generator_ColumnPropNameInTable="ACIKLAMAColumn" msprop:Generator_UserColumnName="ACIKLAMA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOKKODU" msprop:Generator_ColumnVarNameInTable="columnSTOKKODU" msprop:Generator_ColumnPropNameInRow="STOKKODU" msprop:Generator_ColumnPropNameInTable="STOKKODUColumn" msprop:Generator_UserColumnName="STOKKODU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOKADI" msprop:Generator_ColumnVarNameInTable="columnSTOKADI" msprop:Generator_ColumnPropNameInRow="STOKADI" msprop:Generator_ColumnPropNameInTable="STOKADIColumn" msprop:Generator_UserColumnName="STOKADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BIRIM" msprop:Generator_ColumnVarNameInTable="columnBIRIM" msprop:Generator_ColumnPropNameInRow="BIRIM" msprop:Generator_ColumnPropNameInTable="BIRIMColumn" msprop:Generator_UserColumnName="BIRIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BARKOD" msprop:Generator_ColumnVarNameInTable="columnBARKOD" msprop:Generator_ColumnPropNameInRow="BARKOD" msprop:Generator_ColumnPropNameInTable="BARKODColumn" msprop:Generator_UserColumnName="BARKOD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SATISFIYAT1" msprop:Generator_ColumnVarNameInTable="columnSATISFIYAT1" msprop:Generator_ColumnPropNameInRow="SATISFIYAT1" msprop:Generator_ColumnPropNameInTable="SATISFIYAT1Column" msprop:Generator_UserColumnName="SATISFIYAT1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GCKOD" msprop:Generator_ColumnVarNameInTable="columnGCKOD" msprop:Generator_ColumnPropNameInRow="GCKOD" msprop:Generator_ColumnPropNameInTable="GCKODColumn" msprop:Generator_UserColumnName="GCKOD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MIKTAR" msprop:Generator_ColumnVarNameInTable="columnMIKTAR" msprop:Generator_ColumnPropNameInRow="MIKTAR" msprop:Generator_ColumnPropNameInTable="MIKTARColumn" msprop:Generator_UserColumnName="MIKTAR" type="xs:int" minOccurs="0" />
+              <xs:element name="BRUTFIYAT" msprop:Generator_ColumnVarNameInTable="columnBRUTFIYAT" msprop:Generator_ColumnPropNameInRow="BRUTFIYAT" msprop:Generator_ColumnPropNameInTable="BRUTFIYATColumn" msprop:Generator_UserColumnName="BRUTFIYAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ISK1" msprop:Generator_ColumnVarNameInTable="columnISK1" msprop:Generator_ColumnPropNameInRow="ISK1" msprop:Generator_ColumnPropNameInTable="ISK1Column" msprop:Generator_UserColumnName="ISK1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ISK2" msprop:Generator_ColumnVarNameInTable="columnISK2" msprop:Generator_ColumnPropNameInRow="ISK2" msprop:Generator_ColumnPropNameInTable="ISK2Column" msprop:Generator_UserColumnName="ISK2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KDV" msprop:Generator_ColumnVarNameInTable="columnKDV" msprop:Generator_ColumnPropNameInRow="KDV" msprop:Generator_ColumnPropNameInTable="KDVColumn" msprop:Generator_UserColumnName="KDV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BIRIMFIYAT" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBIRIMFIYAT" msprop:Generator_ColumnPropNameInRow="BIRIMFIYAT" msprop:Generator_ColumnPropNameInTable="BIRIMFIYATColumn" msprop:Generator_UserColumnName="BIRIMFIYAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOPLAM" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTOPLAM" msprop:Generator_ColumnPropNameInRow="TOPLAM" msprop:Generator_ColumnPropNameInTable="TOPLAMColumn" msprop:Generator_UserColumnName="TOPLAM" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ISKONTO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnISKONTO" msprop:Generator_ColumnPropNameInRow="ISKONTO" msprop:Generator_ColumnPropNameInTable="ISKONTOColumn" msprop:Generator_UserColumnName="ISKONTO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOPLAMBRUT" msprop:Generator_ColumnVarNameInTable="columnTOPLAMBRUT" msprop:Generator_ColumnPropNameInRow="TOPLAMBRUT" msprop:Generator_ColumnPropNameInTable="TOPLAMBRUTColumn" msprop:Generator_UserColumnName="TOPLAMBRUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOPLAMISKONTO" msprop:Generator_ColumnVarNameInTable="columnTOPLAMISKONTO" msprop:Generator_ColumnPropNameInRow="TOPLAMISKONTO" msprop:Generator_ColumnPropNameInTable="TOPLAMISKONTOColumn" msprop:Generator_UserColumnName="TOPLAMISKONTO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOPLAMARA" msprop:Generator_ColumnVarNameInTable="columnTOPLAMARA" msprop:Generator_ColumnPropNameInRow="TOPLAMARA" msprop:Generator_ColumnPropNameInTable="TOPLAMARAColumn" msprop:Generator_UserColumnName="TOPLAMARA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOPLAMKDV" msprop:Generator_ColumnVarNameInTable="columnTOPLAMKDV" msprop:Generator_ColumnPropNameInRow="TOPLAMKDV" msprop:Generator_ColumnPropNameInTable="TOPLAMKDVColumn" msprop:Generator_UserColumnName="TOPLAMKDV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOPLAMGENEL" msprop:Generator_ColumnVarNameInTable="columnTOPLAMGENEL" msprop:Generator_ColumnPropNameInRow="TOPLAMGENEL" msprop:Generator_ColumnPropNameInTable="TOPLAMGENELColumn" msprop:Generator_UserColumnName="TOPLAMGENEL" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
