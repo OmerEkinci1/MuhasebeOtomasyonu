@@ -1807,14 +1807,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OnMuhasebe.exe" size="10809824">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OnMuhasebe.exe" size="11090400">
       <assemblyIdentity name="OnMuhasebe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Iw0XOE8ssrkXz9nARsVdJ23XFnO5Hq6BfJaiyKmwKO0=</dsig:DigestValue>
+        <dsig:DigestValue>N1fHAJAWFQ8aAEtC10eAiQiNZLOVXDTruFxw/wtqO7I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
