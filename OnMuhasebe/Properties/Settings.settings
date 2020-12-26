@@ -23,7 +23,7 @@
     <Setting Name="VeritabaniSifresi" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="KARIYER2012ConnectionString" Type="(Connection string)" Scope="Application">
+    <Setting Name="MuhasebeConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;ConnectionString&gt;Data Source=.;Initial Catalog=otomasyon;Integrated Security=True&lt;/ConnectionString&gt;

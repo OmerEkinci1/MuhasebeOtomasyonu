@@ -173,7 +173,7 @@
             "Kapalı Fatura"});
             this.comTuru.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comTuru.Size = new System.Drawing.Size(236, 22);
-            this.comTuru.TabIndex = 1;
+            this.comTuru.TabIndex = 6;
             this.comTuru.SelectedIndexChanged += new System.EventHandler(this.comboBoxEdit1_SelectedIndexChanged);
             // 
             // txtVadeTarihi
@@ -188,7 +188,7 @@
             this.txtVadeTarihi.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtVadeTarihi.Size = new System.Drawing.Size(236, 22);
-            this.txtVadeTarihi.TabIndex = 2;
+            this.txtVadeTarihi.TabIndex = 5;
             // 
             // txtTarih
             // 
@@ -202,7 +202,7 @@
             this.txtTarih.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtTarih.Size = new System.Drawing.Size(236, 22);
-            this.txtTarih.TabIndex = 2;
+            this.txtTarih.TabIndex = 4;
             // 
             // btnCariSec
             // 
@@ -212,7 +212,7 @@
             this.btnCariSec.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.btnCariSec.Size = new System.Drawing.Size(357, 22);
-            this.btnCariSec.TabIndex = 1;
+            this.btnCariSec.TabIndex = 2;
             this.btnCariSec.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnCariSec_ButtonClick);
             // 
             // txtCariIsim
@@ -221,7 +221,7 @@
             this.txtCariIsim.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCariIsim.Name = "txtCariIsim";
             this.txtCariIsim.Size = new System.Drawing.Size(357, 22);
-            this.txtCariIsim.TabIndex = 2;
+            this.txtCariIsim.TabIndex = 3;
             // 
             // labelControl3
             // 
@@ -257,7 +257,7 @@
             this.txtFaturaNumarasi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtFaturaNumarasi.Name = "txtFaturaNumarasi";
             this.txtFaturaNumarasi.Size = new System.Drawing.Size(357, 22);
-            this.txtFaturaNumarasi.TabIndex = 2;
+            this.txtFaturaNumarasi.TabIndex = 1;
             // 
             // labelControl4
             // 
@@ -615,7 +615,7 @@
             "Banka"});
             this.comOdemeTuru.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comOdemeTuru.Size = new System.Drawing.Size(236, 22);
-            this.comOdemeTuru.TabIndex = 2;
+            this.comOdemeTuru.TabIndex = 7;
             this.comOdemeTuru.SelectedIndexChanged += new System.EventHandler(this.comOdemeTuru_SelectedIndexChanged);
             // 
             // txtHedef
@@ -626,7 +626,7 @@
             this.txtHedef.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtHedef.Size = new System.Drawing.Size(236, 22);
-            this.txtHedef.TabIndex = 1;
+            this.txtHedef.TabIndex = 8;
             this.txtHedef.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtHedef_ButtonClick);
             // 
             // txtAciklama
@@ -706,7 +706,7 @@
             this.txtGenelToplam.Properties.Appearance.Options.UseTextOptions = true;
             this.txtGenelToplam.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txtGenelToplam.Size = new System.Drawing.Size(213, 22);
-            this.txtGenelToplam.TabIndex = 2;
+            this.txtGenelToplam.TabIndex = 13;
             // 
             // txtKdv
             // 
@@ -718,7 +718,7 @@
             this.txtKdv.Properties.Appearance.Options.UseTextOptions = true;
             this.txtKdv.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txtKdv.Size = new System.Drawing.Size(213, 22);
-            this.txtKdv.TabIndex = 2;
+            this.txtKdv.TabIndex = 12;
             // 
             // txtNetFiyat
             // 
@@ -730,7 +730,7 @@
             this.txtNetFiyat.Properties.Appearance.Options.UseTextOptions = true;
             this.txtNetFiyat.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txtNetFiyat.Size = new System.Drawing.Size(213, 22);
-            this.txtNetFiyat.TabIndex = 2;
+            this.txtNetFiyat.TabIndex = 11;
             // 
             // txtIskonto
             // 
@@ -742,7 +742,7 @@
             this.txtIskonto.Properties.Appearance.Options.UseTextOptions = true;
             this.txtIskonto.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txtIskonto.Size = new System.Drawing.Size(213, 22);
-            this.txtIskonto.TabIndex = 2;
+            this.txtIskonto.TabIndex = 10;
             // 
             // txtAraToplam
             // 
@@ -754,7 +754,7 @@
             this.txtAraToplam.Properties.Appearance.Options.UseTextOptions = true;
             this.txtAraToplam.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.txtAraToplam.Size = new System.Drawing.Size(213, 22);
-            this.txtAraToplam.TabIndex = 2;
+            this.txtAraToplam.TabIndex = 9;
             // 
             // vWTESTTableAdapter2
             // 

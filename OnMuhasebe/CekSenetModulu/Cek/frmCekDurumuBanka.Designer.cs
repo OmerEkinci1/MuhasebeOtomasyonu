@@ -142,7 +142,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtTarih.Properties.ReadOnly = true;
             this.txtTarih.Size = new System.Drawing.Size(236, 22);
-            this.txtTarih.TabIndex = 4;
+            this.txtTarih.TabIndex = 2;
             // 
             // txtNumara
             // 
@@ -164,7 +164,7 @@
             this.txtTutar.Name = "txtTutar";
             this.txtTutar.Properties.ReadOnly = true;
             this.txtTutar.Size = new System.Drawing.Size(243, 22);
-            this.txtTutar.TabIndex = 2;
+            this.txtTutar.TabIndex = 8;
             // 
             // txtVadeTarihi
             // 
@@ -173,7 +173,7 @@
             this.txtVadeTarihi.Name = "txtVadeTarihi";
             this.txtVadeTarihi.Properties.ReadOnly = true;
             this.txtVadeTarihi.Size = new System.Drawing.Size(243, 22);
-            this.txtVadeTarihi.TabIndex = 2;
+            this.txtVadeTarihi.TabIndex = 5;
             // 
             // labelControl8
             // 
@@ -205,7 +205,7 @@
             this.txtSube.Name = "txtSube";
             this.txtSube.Properties.ReadOnly = true;
             this.txtSube.Size = new System.Drawing.Size(243, 22);
-            this.txtSube.TabIndex = 2;
+            this.txtSube.TabIndex = 7;
             // 
             // txtBanka
             // 
@@ -214,7 +214,7 @@
             this.txtBanka.Name = "txtBanka";
             this.txtBanka.Properties.ReadOnly = true;
             this.txtBanka.Size = new System.Drawing.Size(243, 22);
-            this.txtBanka.TabIndex = 2;
+            this.txtBanka.TabIndex = 6;
             // 
             // labelControl7
             // 
@@ -232,7 +232,7 @@
             this.txtCekNo.Name = "txtCekNo";
             this.txtCekNo.Properties.ReadOnly = true;
             this.txtCekNo.Size = new System.Drawing.Size(243, 22);
-            this.txtCekNo.TabIndex = 2;
+            this.txtCekNo.TabIndex = 4;
             // 
             // labelControl5
             // 
@@ -268,7 +268,7 @@
             this.txtAsilBorclu.Name = "txtAsilBorclu";
             this.txtAsilBorclu.Properties.ReadOnly = true;
             this.txtAsilBorclu.Size = new System.Drawing.Size(243, 22);
-            this.txtAsilBorclu.TabIndex = 2;
+            this.txtAsilBorclu.TabIndex = 3;
             // 
             // labelControl3
             // 
@@ -329,7 +329,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtHesapNo.Properties.ReadOnly = true;
             this.txtHesapNo.Size = new System.Drawing.Size(233, 22);
-            this.txtHesapNo.TabIndex = 58;
+            this.txtHesapNo.TabIndex = 9;
             this.txtHesapNo.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtHesapNo_ButtonClick);
             // 
             // labelControl10
@@ -351,7 +351,7 @@
             this.txtBankaAdi.Name = "txtBankaAdi";
             this.txtBankaAdi.Properties.ReadOnly = true;
             this.txtBankaAdi.Size = new System.Drawing.Size(233, 22);
-            this.txtBankaAdi.TabIndex = 55;
+            this.txtBankaAdi.TabIndex = 10;
             // 
             // labelControl11
             // 
@@ -382,7 +382,7 @@
             "KARŞILIKSIZ ÇEK"});
             this.comDurumu.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comDurumu.Size = new System.Drawing.Size(236, 24);
-            this.comDurumu.TabIndex = 5;
+            this.comDurumu.TabIndex = 9;
             this.comDurumu.SelectedIndexChanged += new System.EventHandler(this.comDurumu_SelectedIndexChanged);
             // 
             // labelControl2

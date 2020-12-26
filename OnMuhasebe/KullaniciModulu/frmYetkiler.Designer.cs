@@ -298,7 +298,7 @@
             this.txtAdi.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtAdi.Size = new System.Drawing.Size(313, 22);
-            this.txtAdi.TabIndex = 52;
+            this.txtAdi.TabIndex = 1;
             this.txtAdi.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtAdi_ButtonClick);
             // 
             // labelControl1
@@ -326,7 +326,7 @@
             this.txtSoyadi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSoyadi.Name = "txtSoyadi";
             this.txtSoyadi.Size = new System.Drawing.Size(313, 22);
-            this.txtSoyadi.TabIndex = 51;
+            this.txtSoyadi.TabIndex = 2;
             // 
             // panelControl1
             // 

@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule3 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue3 = new DevExpress.XtraEditors.FormatConditionRuleValue();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule4 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue4 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule2 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue2 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKendiCekListesi));
             this.YERI = new DevExpress.XtraGrid.Columns.GridColumn();
             this.VADETARIHI = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -177,7 +177,7 @@
             this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(274, 22);
-            this.txtAciklama.TabIndex = 4;
+            this.txtAciklama.TabIndex = 7;
             // 
             // txtVadeTarihi
             // 
@@ -187,7 +187,7 @@
             this.txtVadeTarihi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtVadeTarihi.Name = "txtVadeTarihi";
             this.txtVadeTarihi.Size = new System.Drawing.Size(274, 22);
-            this.txtVadeTarihi.TabIndex = 3;
+            this.txtVadeTarihi.TabIndex = 6;
             // 
             // labelControl2
             // 
@@ -206,7 +206,7 @@
             this.txtVerilenBanka.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtVerilenBanka.Name = "txtVerilenBanka";
             this.txtVerilenBanka.Size = new System.Drawing.Size(274, 22);
-            this.txtVerilenBanka.TabIndex = 1;
+            this.txtVerilenBanka.TabIndex = 4;
             // 
             // VERILENCARIISIM
             // 
@@ -252,24 +252,24 @@
             this.YERI,
             this.YERI_ACIKLAMA});
             this.gridView1.DetailHeight = 431;
-            gridFormatRule3.ApplyToRow = true;
-            gridFormatRule3.Column = this.YERI;
-            gridFormatRule3.Name = "Format0";
-            formatConditionRuleValue3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            formatConditionRuleValue3.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue3.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue3.Value1 = "B";
-            gridFormatRule3.Rule = formatConditionRuleValue3;
-            gridFormatRule4.ApplyToRow = true;
-            gridFormatRule4.Column = this.YERI;
-            gridFormatRule4.Name = "Format1";
-            formatConditionRuleValue4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            formatConditionRuleValue4.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue4.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue4.Value1 = "C";
-            gridFormatRule4.Rule = formatConditionRuleValue4;
-            this.gridView1.FormatRules.Add(gridFormatRule3);
-            this.gridView1.FormatRules.Add(gridFormatRule4);
+            gridFormatRule1.ApplyToRow = true;
+            gridFormatRule1.Column = this.YERI;
+            gridFormatRule1.Name = "Format0";
+            formatConditionRuleValue1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            formatConditionRuleValue1.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue1.Value1 = "B";
+            gridFormatRule1.Rule = formatConditionRuleValue1;
+            gridFormatRule2.ApplyToRow = true;
+            gridFormatRule2.Column = this.YERI;
+            gridFormatRule2.Name = "Format1";
+            formatConditionRuleValue2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            formatConditionRuleValue2.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue2.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue2.Value1 = "C";
+            gridFormatRule2.Rule = formatConditionRuleValue2;
+            this.gridView1.FormatRules.Add(gridFormatRule1);
+            this.gridView1.FormatRules.Add(gridFormatRule2);
             this.gridView1.GridControl = this.Liste;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ColumnAutoWidth = false;
@@ -474,7 +474,7 @@
             this.txtVerilenCari.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtVerilenCari.Name = "txtVerilenCari";
             this.txtVerilenCari.Size = new System.Drawing.Size(274, 22);
-            this.txtVerilenCari.TabIndex = 0;
+            this.txtVerilenCari.TabIndex = 3;
             // 
             // btnTemizle
             // 
@@ -538,7 +538,7 @@
             this.txtDurum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDurum.Name = "txtDurum";
             this.txtDurum.Size = new System.Drawing.Size(274, 22);
-            this.txtDurum.TabIndex = 4;
+            this.txtDurum.TabIndex = 8;
             // 
             // txtTarih
             // 
@@ -548,7 +548,7 @@
             this.txtTarih.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTarih.Name = "txtTarih";
             this.txtTarih.Size = new System.Drawing.Size(274, 22);
-            this.txtTarih.TabIndex = 3;
+            this.txtTarih.TabIndex = 5;
             // 
             // labelControl7
             // 
@@ -567,7 +567,7 @@
             this.txtBelgeNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBelgeNo.Name = "txtBelgeNo";
             this.txtBelgeNo.Size = new System.Drawing.Size(274, 22);
-            this.txtBelgeNo.TabIndex = 0;
+            this.txtBelgeNo.TabIndex = 1;
             // 
             // labelControl6
             // 
@@ -586,7 +586,7 @@
             this.txtCekNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCekNo.Name = "txtCekNo";
             this.txtCekNo.Size = new System.Drawing.Size(274, 22);
-            this.txtCekNo.TabIndex = 0;
+            this.txtCekNo.TabIndex = 2;
             // 
             // btnAra
             // 

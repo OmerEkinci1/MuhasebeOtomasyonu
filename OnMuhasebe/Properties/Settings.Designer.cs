@@ -111,9 +111,9 @@ namespace OnMuhasebe.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=otomasyon;Integrated Security=True")]
-        public string KARIYER2012ConnectionString {
+        public string MuhasebeConnectionString {
             get {
-                return ((string)(this["KARIYER2012ConnectionString"]));
+                return ((string)(this["MuhasebeConnectionString"]));
             }
         }
         

@@ -121,7 +121,7 @@
             this.txtFaturaNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtFaturaNo.Name = "txtFaturaNo";
             this.txtFaturaNo.Size = new System.Drawing.Size(230, 22);
-            this.txtFaturaNo.TabIndex = 2;
+            this.txtFaturaNo.TabIndex = 1;
             // 
             // labelControl2
             // 
@@ -140,7 +140,7 @@
             this.txtCariAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCariAdi.Name = "txtCariAdi";
             this.txtCariAdi.Size = new System.Drawing.Size(230, 22);
-            this.txtCariAdi.TabIndex = 1;
+            this.txtCariAdi.TabIndex = 3;
             // 
             // labelControl1
             // 
@@ -159,7 +159,7 @@
             this.txtCariKodu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCariKodu.Name = "txtCariKodu";
             this.txtCariKodu.Size = new System.Drawing.Size(230, 22);
-            this.txtCariKodu.TabIndex = 0;
+            this.txtCariKodu.TabIndex = 2;
             // 
             // btnTemizle
             // 

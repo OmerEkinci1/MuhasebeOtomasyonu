@@ -46,17 +46,25 @@
             this.navBarItem7 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem13 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarGroup4 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarItem14 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem15 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem16 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem17 = new DevExpress.XtraNavBar.NavBarItem();
             ((System.ComponentModel.ISupportInitialize)(this.navBarKullanici)).BeginInit();
             this.SuspendLayout();
             // 
             // navBarKullanici
             // 
-            this.navBarKullanici.ActiveGroup = this.navBarGroup3;
+            this.navBarKullanici.ActiveGroup = this.navBarGroup4;
             this.navBarKullanici.Dock = System.Windows.Forms.DockStyle.Left;
             this.navBarKullanici.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
             this.navBarGroup1,
             this.navBarGroup2,
-            this.navBarGroup3});
+            this.navBarGroup3,
+            this.navBarGroup4,
+            this.navBarGroup5});
             this.navBarKullanici.Items.AddRange(new DevExpress.XtraNavBar.NavBarItem[] {
             this.navBarItem1,
             this.navBarItem2,
@@ -70,7 +78,11 @@
             this.navBarItem10,
             this.navBarItem11,
             this.navBarItem12,
-            this.navBarItem13});
+            this.navBarItem13,
+            this.navBarItem14,
+            this.navBarItem15,
+            this.navBarItem16,
+            this.navBarItem17});
             this.navBarKullanici.Location = new System.Drawing.Point(0, 0);
             this.navBarKullanici.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.navBarKullanici.Name = "navBarKullanici";
@@ -83,7 +95,6 @@
             // navBarGroup3
             // 
             this.navBarGroup3.Caption = "Fatura İşlemleri";
-            this.navBarGroup3.Expanded = true;
             this.navBarGroup3.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.LargeIconsList;
             this.navBarGroup3.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9),
@@ -191,6 +202,44 @@
             this.navBarItem13.Caption = "navBarItem13";
             this.navBarItem13.Name = "navBarItem13";
             // 
+            // navBarGroup4
+            // 
+            this.navBarGroup4.Caption = "Kullanıcı İşlemleri";
+            this.navBarGroup4.Expanded = true;
+            this.navBarGroup4.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem14),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem15),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem16),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem17)});
+            this.navBarGroup4.Name = "navBarGroup4";
+            // 
+            // navBarGroup5
+            // 
+            this.navBarGroup5.Caption = "Çek Senet İşlemleri";
+            this.navBarGroup5.Name = "navBarGroup5";
+            // 
+            // navBarItem14
+            // 
+            this.navBarItem14.Caption = "Kullanıcı Ekle";
+            this.navBarItem14.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("navBarItem14.ImageOptions.LargeImage")));
+            this.navBarItem14.ImageOptions.LargeImageSize = new System.Drawing.Size(32, 32);
+            this.navBarItem14.Name = "navBarItem14";
+            // 
+            // navBarItem15
+            // 
+            this.navBarItem15.Caption = "Kullanıcı Yetkileri";
+            this.navBarItem15.Name = "navBarItem15";
+            // 
+            // navBarItem16
+            // 
+            this.navBarItem16.Caption = "Kullanıcı Listesi";
+            this.navBarItem16.Name = "navBarItem16";
+            // 
+            // navBarItem17
+            // 
+            this.navBarItem17.Caption = "Parolayı Değiştir";
+            this.navBarItem17.Name = "navBarItem17";
+            // 
             // frmMasaustu
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -232,5 +281,11 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem11;
         private DevExpress.XtraNavBar.NavBarItem navBarItem12;
         private DevExpress.XtraNavBar.NavBarItem navBarItem13;
+        private DevExpress.XtraNavBar.NavBarGroup navBarGroup4;
+        private DevExpress.XtraNavBar.NavBarGroup navBarGroup5;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem14;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem15;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem16;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem17;
     }
 }

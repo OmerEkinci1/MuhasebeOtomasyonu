@@ -89,12 +89,12 @@
             // 
             // cheAnimsa
             // 
-            this.cheAnimsa.Location = new System.Drawing.Point(187, 497);
+            this.cheAnimsa.Location = new System.Drawing.Point(197, 497);
             this.cheAnimsa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cheAnimsa.Name = "cheAnimsa";
             this.cheAnimsa.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 15F);
             this.cheAnimsa.Properties.Appearance.Options.UseFont = true;
-            this.cheAnimsa.Properties.Caption = "Parolamı Anımsa";
+            this.cheAnimsa.Properties.Caption = "Beni Hatırla";
             this.cheAnimsa.Size = new System.Drawing.Size(206, 34);
             this.cheAnimsa.TabIndex = 2;
             // 
@@ -154,10 +154,11 @@
             this.Controls.Add(this.txtKullaniciAdi);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmGirisFormu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmGirisFormu";
+            this.Text = "Ekinci Yazılım AŞ";
             this.Load += new System.EventHandler(this.frmGirisFormu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtKullaniciAdi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtParola.Properties)).EndInit();

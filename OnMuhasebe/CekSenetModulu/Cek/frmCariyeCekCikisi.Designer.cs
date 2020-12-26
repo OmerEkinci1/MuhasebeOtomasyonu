@@ -95,7 +95,7 @@
             this.txtCariAdi.Properties.Appearance.Options.UseBackColor = true;
             this.txtCariAdi.Properties.ReadOnly = true;
             this.txtCariAdi.Size = new System.Drawing.Size(357, 22);
-            this.txtCariAdi.TabIndex = 2;
+            this.txtCariAdi.TabIndex = 4;
             // 
             // labelControl3
             // 
@@ -135,7 +135,7 @@
             this.txtTarih.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtTarih.Size = new System.Drawing.Size(236, 22);
-            this.txtTarih.TabIndex = 4;
+            this.txtTarih.TabIndex = 3;
             // 
             // txtNumara
             // 
@@ -158,7 +158,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtCarikodu.Properties.ReadOnly = true;
             this.txtCarikodu.Size = new System.Drawing.Size(357, 22);
-            this.txtCarikodu.TabIndex = 1;
+            this.txtCarikodu.TabIndex = 2;
             this.txtCarikodu.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtCarikodu_ButtonClick);
             // 
             // labelControl2

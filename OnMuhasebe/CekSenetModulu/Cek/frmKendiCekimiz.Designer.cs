@@ -75,7 +75,7 @@
             this.txtBelgeNo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtBelgeNo.Size = new System.Drawing.Size(264, 22);
-            this.txtBelgeNo.TabIndex = 0;
+            this.txtBelgeNo.TabIndex = 1;
             this.txtBelgeNo.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtBelgeNo_ButtonClick);
             // 
             // txtCekNo
@@ -84,7 +84,7 @@
             this.txtCekNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCekNo.Name = "txtCekNo";
             this.txtCekNo.Size = new System.Drawing.Size(264, 22);
-            this.txtCekNo.TabIndex = 1;
+            this.txtCekNo.TabIndex = 2;
             // 
             // labelControl1
             // 
@@ -115,7 +115,7 @@
             this.txtVadeTarihi.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtVadeTarihi.Size = new System.Drawing.Size(264, 22);
-            this.txtVadeTarihi.TabIndex = 7;
+            this.txtVadeTarihi.TabIndex = 4;
             // 
             // labelControl6
             // 
@@ -132,7 +132,7 @@
             this.txtBanka.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBanka.Name = "txtBanka";
             this.txtBanka.Size = new System.Drawing.Size(264, 22);
-            this.txtBanka.TabIndex = 8;
+            this.txtBanka.TabIndex = 5;
             // 
             // labelControl8
             // 
@@ -149,7 +149,7 @@
             this.txtSube.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSube.Name = "txtSube";
             this.txtSube.Size = new System.Drawing.Size(264, 22);
-            this.txtSube.TabIndex = 9;
+            this.txtSube.TabIndex = 6;
             // 
             // labelControl7
             // 
@@ -166,7 +166,7 @@
             this.txtHesapNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtHesapNo.Name = "txtHesapNo";
             this.txtHesapNo.Size = new System.Drawing.Size(264, 22);
-            this.txtHesapNo.TabIndex = 10;
+            this.txtHesapNo.TabIndex = 7;
             // 
             // labelControl9
             // 
@@ -183,7 +183,7 @@
             this.txtTutar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTutar.Name = "txtTutar";
             this.txtTutar.Size = new System.Drawing.Size(264, 22);
-            this.txtTutar.TabIndex = 11;
+            this.txtTutar.TabIndex = 8;
             // 
             // labelControl10
             // 
@@ -200,7 +200,7 @@
             this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(297, 118);
-            this.txtAciklama.TabIndex = 12;
+            this.txtAciklama.TabIndex = 9;
             // 
             // labelControl11
             // 
@@ -292,7 +292,7 @@
             this.txtTarih.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtTarih.Size = new System.Drawing.Size(264, 22);
-            this.txtTarih.TabIndex = 7;
+            this.txtTarih.TabIndex = 3;
             // 
             // frmKendiCekimiz
             // 

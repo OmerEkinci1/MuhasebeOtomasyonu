@@ -136,7 +136,7 @@
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(271, 22);
-            this.txtEmail.TabIndex = 3;
+            this.txtEmail.TabIndex = 4;
             // 
             // txtUnvan
             // 
@@ -146,7 +146,7 @@
             this.txtUnvan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUnvan.Name = "txtUnvan";
             this.txtUnvan.Size = new System.Drawing.Size(271, 22);
-            this.txtUnvan.TabIndex = 2;
+            this.txtUnvan.TabIndex = 3;
             // 
             // labelControl2
             // 
@@ -165,7 +165,7 @@
             this.txtSoyadi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSoyadi.Name = "txtSoyadi";
             this.txtSoyadi.Size = new System.Drawing.Size(271, 22);
-            this.txtSoyadi.TabIndex = 1;
+            this.txtSoyadi.TabIndex = 2;
             // 
             // labelControl1
             // 
@@ -184,7 +184,7 @@
             this.txtAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAdi.Name = "txtAdi";
             this.txtAdi.Size = new System.Drawing.Size(271, 22);
-            this.txtAdi.TabIndex = 0;
+            this.txtAdi.TabIndex = 1;
             // 
             // btnTemizle
             // 

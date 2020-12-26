@@ -4,12 +4,12 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="KARIYER2012ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="KARIYER2012ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OnMuhasebe.Properties.Settings.GlobalReference.Default.KARIYER2012ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MuhasebeConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="MuhasebeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OnMuhasebe.Properties.Settings.GlobalReference.Default.MuhasebeConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VWTESTTableAdapter" GeneratorDataComponentClassName="VWTESTTableAdapter" Name="VWTEST" UserDataComponentName="VWTESTTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="KARIYER2012ConnectionString (Settings)" DbObjectName="KARIYER2012.dbo.VWTEST" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="MuhasebeConnectionString (Settings)" DbObjectName="KARIYER2012.dbo.VWTEST" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>SELECT ID, STOKKODU, STOKADI, BIRIMFIYAT, BARKOD, BIRIM, MIKTAR, KDV, ISK1, ISK2, TOPLAM FROM dbo.VWTEST</CommandText>
@@ -41,7 +41,7 @@
   <xs:element name="KARIYER2012DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="KARIYER2012DataSet" msprop:Generator_UserDSName="KARIYER2012DataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="VWTEST" msprop:Generator_TableClassName="VWTESTDataTable" msprop:Generator_TableVarName="tableVWTEST" msprop:Generator_TablePropName="VWTEST" msprop:Generator_RowDeletingName="VWTESTRowDeleting" msprop:Generator_RowChangingName="VWTESTRowChanging" msprop:Generator_RowEvHandlerName="VWTESTRowChangeEventHandler" msprop:Generator_RowDeletedName="VWTESTRowDeleted" msprop:Generator_UserTableName="VWTEST" msprop:Generator_RowChangedName="VWTESTRowChanged" msprop:Generator_RowEvArgName="VWTESTRowChangeEvent" msprop:Generator_RowClassName="VWTESTRow">
+        <xs:element name="VWTEST" msprop:Generator_TableClassName="VWTESTDataTable" msprop:Generator_TableVarName="tableVWTEST" msprop:Generator_RowChangedName="VWTESTRowChanged" msprop:Generator_TablePropName="VWTEST" msprop:Generator_RowDeletingName="VWTESTRowDeleting" msprop:Generator_RowChangingName="VWTESTRowChanging" msprop:Generator_RowEvHandlerName="VWTESTRowChangeEventHandler" msprop:Generator_RowDeletedName="VWTESTRowDeleted" msprop:Generator_RowClassName="VWTESTRow" msprop:Generator_UserTableName="VWTEST" msprop:Generator_RowEvArgName="VWTESTRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />

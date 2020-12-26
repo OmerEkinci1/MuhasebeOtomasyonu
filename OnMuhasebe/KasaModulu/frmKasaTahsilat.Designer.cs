@@ -138,7 +138,7 @@
             this.txtTarih.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtTarih.Size = new System.Drawing.Size(182, 22);
-            this.txtTarih.TabIndex = 58;
+            this.txtTarih.TabIndex = 7;
             // 
             // txtMakbuzNo
             // 
@@ -146,7 +146,7 @@
             this.txtMakbuzNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMakbuzNo.Name = "txtMakbuzNo";
             this.txtMakbuzNo.Size = new System.Drawing.Size(182, 22);
-            this.txtMakbuzNo.TabIndex = 59;
+            this.txtMakbuzNo.TabIndex = 2;
             // 
             // labelControl6
             // 
@@ -201,7 +201,7 @@
             this.txtKasaAdi.Name = "txtKasaAdi";
             this.txtKasaAdi.Properties.ReadOnly = true;
             this.txtKasaAdi.Size = new System.Drawing.Size(306, 22);
-            this.txtKasaAdi.TabIndex = 57;
+            this.txtKasaAdi.TabIndex = 4;
             // 
             // txtTutar
             // 
@@ -211,7 +211,7 @@
             this.txtTutar.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtTutar.Properties.Appearance.Options.UseBackColor = true;
             this.txtTutar.Size = new System.Drawing.Size(182, 22);
-            this.txtTutar.TabIndex = 60;
+            this.txtTutar.TabIndex = 8;
             // 
             // txtKasaKodu
             // 
@@ -222,7 +222,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtKasaKodu.Properties.ReadOnly = true;
             this.txtKasaKodu.Size = new System.Drawing.Size(306, 22);
-            this.txtKasaKodu.TabIndex = 70;
+            this.txtKasaKodu.TabIndex = 3;
             this.txtKasaKodu.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtKasaKodu_ButtonClick);
             // 
             // labelControl5
@@ -240,7 +240,7 @@
             this.txtBelgeNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBelgeNo.Name = "txtBelgeNo";
             this.txtBelgeNo.Size = new System.Drawing.Size(182, 22);
-            this.txtBelgeNo.TabIndex = 59;
+            this.txtBelgeNo.TabIndex = 1;
             // 
             // labelControl7
             // 
@@ -259,7 +259,7 @@
             this.txtCariAdi.Name = "txtCariAdi";
             this.txtCariAdi.Properties.ReadOnly = true;
             this.txtCariAdi.Size = new System.Drawing.Size(306, 22);
-            this.txtCariAdi.TabIndex = 57;
+            this.txtCariAdi.TabIndex = 6;
             // 
             // labelControl8
             // 
@@ -285,7 +285,7 @@
             this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(358, 110);
-            this.txtAciklama.TabIndex = 71;
+            this.txtAciklama.TabIndex = 9;
             // 
             // txtCariKodu
             // 
@@ -297,7 +297,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtCariKodu.Properties.ReadOnly = true;
             this.txtCariKodu.Size = new System.Drawing.Size(306, 22);
-            this.txtCariKodu.TabIndex = 57;
+            this.txtCariKodu.TabIndex = 5;
             this.txtCariKodu.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtCariKodu_ButtonClick);
             // 
             // frmKasaTahsilat

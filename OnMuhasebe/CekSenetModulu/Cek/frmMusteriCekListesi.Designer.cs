@@ -178,7 +178,7 @@
             this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(274, 22);
-            this.txtAciklama.TabIndex = 4;
+            this.txtAciklama.TabIndex = 7;
             // 
             // txtVadeTarihi
             // 
@@ -188,7 +188,7 @@
             this.txtVadeTarihi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtVadeTarihi.Name = "txtVadeTarihi";
             this.txtVadeTarihi.Size = new System.Drawing.Size(274, 22);
-            this.txtVadeTarihi.TabIndex = 3;
+            this.txtVadeTarihi.TabIndex = 6;
             // 
             // labelControl2
             // 
@@ -207,7 +207,7 @@
             this.txtCariAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCariAdi.Name = "txtCariAdi";
             this.txtCariAdi.Size = new System.Drawing.Size(274, 22);
-            this.txtCariAdi.TabIndex = 1;
+            this.txtCariAdi.TabIndex = 4;
             // 
             // ALINANCARI
             // 
@@ -482,7 +482,7 @@
             this.txtCariKodu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCariKodu.Name = "txtCariKodu";
             this.txtCariKodu.Size = new System.Drawing.Size(274, 22);
-            this.txtCariKodu.TabIndex = 0;
+            this.txtCariKodu.TabIndex = 3;
             // 
             // btnTemizle
             // 
@@ -546,7 +546,7 @@
             this.txtDurum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDurum.Name = "txtDurum";
             this.txtDurum.Size = new System.Drawing.Size(274, 22);
-            this.txtDurum.TabIndex = 4;
+            this.txtDurum.TabIndex = 8;
             // 
             // txtTarih
             // 
@@ -556,7 +556,7 @@
             this.txtTarih.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTarih.Name = "txtTarih";
             this.txtTarih.Size = new System.Drawing.Size(274, 22);
-            this.txtTarih.TabIndex = 3;
+            this.txtTarih.TabIndex = 5;
             // 
             // labelControl7
             // 
@@ -575,7 +575,7 @@
             this.txtBelgeNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBelgeNo.Name = "txtBelgeNo";
             this.txtBelgeNo.Size = new System.Drawing.Size(274, 22);
-            this.txtBelgeNo.TabIndex = 0;
+            this.txtBelgeNo.TabIndex = 1;
             // 
             // labelControl6
             // 
@@ -594,7 +594,7 @@
             this.txtCekNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCekNo.Name = "txtCekNo";
             this.txtCekNo.Size = new System.Drawing.Size(274, 22);
-            this.txtCekNo.TabIndex = 0;
+            this.txtCekNo.TabIndex = 2;
             // 
             // btnAra
             // 

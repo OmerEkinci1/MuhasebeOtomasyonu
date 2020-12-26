@@ -155,7 +155,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comSatis2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comSatis2.Size = new System.Drawing.Size(205, 22);
-            this.comSatis2.TabIndex = 1;
+            this.comSatis2.TabIndex = 16;
             // 
             // comSatisKdv
             // 
@@ -168,7 +168,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comSatisKdv.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comSatisKdv.Size = new System.Drawing.Size(205, 22);
-            this.comSatisKdv.TabIndex = 1;
+            this.comSatisKdv.TabIndex = 12;
             // 
             // comKod5
             // 
@@ -181,7 +181,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comKod5.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comKod5.Size = new System.Drawing.Size(205, 22);
-            this.comKod5.TabIndex = 1;
+            this.comKod5.TabIndex = 8;
             // 
             // labelControl16
             // 
@@ -212,7 +212,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comAlis2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comAlis2.Size = new System.Drawing.Size(205, 22);
-            this.comAlis2.TabIndex = 1;
+            this.comAlis2.TabIndex = 14;
             // 
             // comBarkod
             // 
@@ -225,7 +225,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comBarkod.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comBarkod.Size = new System.Drawing.Size(205, 22);
-            this.comBarkod.TabIndex = 1;
+            this.comBarkod.TabIndex = 10;
             // 
             // comKod1
             // 
@@ -238,7 +238,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comKod1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comKod1.Size = new System.Drawing.Size(205, 22);
-            this.comKod1.TabIndex = 1;
+            this.comKod1.TabIndex = 4;
             // 
             // comAlis1
             // 
@@ -251,7 +251,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comAlis1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comAlis1.Size = new System.Drawing.Size(205, 22);
-            this.comAlis1.TabIndex = 1;
+            this.comAlis1.TabIndex = 13;
             // 
             // comBirim
             // 
@@ -264,7 +264,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comBirim.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comBirim.Size = new System.Drawing.Size(205, 22);
-            this.comBirim.TabIndex = 1;
+            this.comBirim.TabIndex = 9;
             // 
             // labelControl15
             // 
@@ -286,7 +286,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comKod3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comKod3.Size = new System.Drawing.Size(205, 22);
-            this.comKod3.TabIndex = 1;
+            this.comKod3.TabIndex = 6;
             // 
             // labelControl10
             // 
@@ -317,7 +317,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comStokAdi.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comStokAdi.Size = new System.Drawing.Size(205, 22);
-            this.comStokAdi.TabIndex = 1;
+            this.comStokAdi.TabIndex = 2;
             // 
             // labelControl12
             // 
@@ -339,7 +339,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comSatis1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comSatis1.Size = new System.Drawing.Size(205, 22);
-            this.comSatis1.TabIndex = 1;
+            this.comSatis1.TabIndex = 15;
             // 
             // labelControl8
             // 
@@ -361,7 +361,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comAlisKdv.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comAlisKdv.Size = new System.Drawing.Size(205, 22);
-            this.comAlisKdv.TabIndex = 1;
+            this.comAlisKdv.TabIndex = 11;
             // 
             // labelControl13
             // 
@@ -419,7 +419,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comKod4.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comKod4.Size = new System.Drawing.Size(205, 22);
-            this.comKod4.TabIndex = 1;
+            this.comKod4.TabIndex = 7;
             // 
             // comIngIsim
             // 
@@ -432,7 +432,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comIngIsim.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comIngIsim.Size = new System.Drawing.Size(205, 22);
-            this.comIngIsim.TabIndex = 1;
+            this.comIngIsim.TabIndex = 3;
             // 
             // labelControl6
             // 
@@ -463,7 +463,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comKod2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.comKod2.Size = new System.Drawing.Size(205, 22);
-            this.comKod2.TabIndex = 1;
+            this.comKod2.TabIndex = 5;
             // 
             // labelControl5
             // 

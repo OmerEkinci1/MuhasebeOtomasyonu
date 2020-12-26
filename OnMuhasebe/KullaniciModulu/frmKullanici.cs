@@ -23,26 +23,34 @@ namespace OnMuhasebe.KullaniciModulu
         }
         public void Ac(string Id)
         {
-            AcilanKullaniciId = Id;
-            Edit = true;//güncelleme için
-            DataRow Satir = Kullanici.Ac(AcilanKullaniciId);
-            txtAdi.Text = Satir["ADI"].ToString();
-            txtSoyadi.Text = Satir["SOYADI"].ToString();
-            txtUnvani.Text = Satir["UNVANI"].ToString();
-            txtEmail.Text = Satir["EMAIL"].ToString();
-            txtTel.Text = Satir["TEL"].ToString();
-            txtKullaniciAdi.Text = Satir["KULLANICIADI"].ToString();
-            txtParola.Text = Satir["PAROLA"].ToString();
-            txtAciklama.Text = Satir["ACIKLAMA"].ToString();
+            try
+            {
+                AcilanKullaniciId = Id;
+                Edit = true;//güncelleme için
+                DataRow Satir = Kullanici.Ac(AcilanKullaniciId);
+                txtAdi.Text = Satir["ADI"].ToString();
+                txtSoyadi.Text = Satir["SOYADI"].ToString();
+                txtUnvani.Text = Satir["UNVANI"].ToString();
+                txtEmail.Text = Satir["EMAIL"].ToString();
+                txtTel.Text = Satir["TEL"].ToString();
+                txtKullaniciAdi.Text = Satir["KULLANICIADI"].ToString();
+                txtParola.Text = Satir["PAROLA"].ToString();
+                txtAciklama.Text = Satir["ACIKLAMA"].ToString();
 
-            AdminMi= Satir["ADMIN"].ToString();
-            if (AdminMi.Trim()=="1")
-            {
-                cheYonetici.Checked = true;
+                AdminMi = Satir["ADMIN"].ToString();
+                if (AdminMi.Trim() == "1")
+                {
+                    cheYonetici.Checked = true;
+                }
+                else
+                {
+                    cheYonetici.Checked = false;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                cheYonetici.Checked = false;
+
+                MessageBox.Show(ex.Message);
             }
         }
 

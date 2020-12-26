@@ -1807,14 +1807,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OnMuhasebe.exe" size="11716576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OnMuhasebe.exe" size="10809824">
       <assemblyIdentity name="OnMuhasebe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DE2EjPRF8oTgA/Z9Ekepwh4FREXzxMT9naB+ULRAINw=</dsig:DigestValue>
+        <dsig:DigestValue>Iw0XOE8ssrkXz9nARsVdJ23XFnO5Hq6BfJaiyKmwKO0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1827,13 +1827,13 @@
       <dsig:DigestValue>dcxRtCENWBGeIXtAvN8fJNIqVr5hhkwi4/aWsNx4uNM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="OnMuhasebe.exe.config" size="2119">
+  <file name="OnMuhasebe.exe.config" size="2116">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+4Crn4aD17kCDE/szTHwUf7gUwR6OqxTcbyXF50odA4=</dsig:DigestValue>
+      <dsig:DigestValue>HaOBWjf2b48NLCLXjaa1F3C0OOSvUjMrHpXqTbfd76U=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

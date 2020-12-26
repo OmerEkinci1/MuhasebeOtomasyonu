@@ -74,7 +74,7 @@
             this.txtTutar.Name = "txtTutar";
             this.txtTutar.Properties.ReadOnly = true;
             this.txtTutar.Size = new System.Drawing.Size(243, 22);
-            this.txtTutar.TabIndex = 10;
+            this.txtTutar.TabIndex = 9;
             // 
             // txtVadeTarihi
             // 
@@ -83,7 +83,7 @@
             this.txtVadeTarihi.Name = "txtVadeTarihi";
             this.txtVadeTarihi.Properties.ReadOnly = true;
             this.txtVadeTarihi.Size = new System.Drawing.Size(243, 22);
-            this.txtVadeTarihi.TabIndex = 11;
+            this.txtVadeTarihi.TabIndex = 6;
             // 
             // labelControl8
             // 
@@ -110,7 +110,7 @@
             this.txtSube.Name = "txtSube";
             this.txtSube.Properties.ReadOnly = true;
             this.txtSube.Size = new System.Drawing.Size(243, 22);
-            this.txtSube.TabIndex = 12;
+            this.txtSube.TabIndex = 8;
             // 
             // labelControl9
             // 
@@ -128,7 +128,7 @@
             this.txtBanka.Name = "txtBanka";
             this.txtBanka.Properties.ReadOnly = true;
             this.txtBanka.Size = new System.Drawing.Size(243, 22);
-            this.txtBanka.TabIndex = 13;
+            this.txtBanka.TabIndex = 7;
             // 
             // labelControl7
             // 
@@ -146,7 +146,7 @@
             this.txtCekNo.Name = "txtCekNo";
             this.txtCekNo.Properties.ReadOnly = true;
             this.txtCekNo.Size = new System.Drawing.Size(243, 22);
-            this.txtCekNo.TabIndex = 14;
+            this.txtCekNo.TabIndex = 5;
             // 
             // labelControl5
             // 
@@ -208,7 +208,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtTarih.Properties.ReadOnly = true;
             this.txtTarih.Size = new System.Drawing.Size(236, 22);
-            this.txtTarih.TabIndex = 4;
+            this.txtTarih.TabIndex = 2;
             // 
             // labelControl4
             // 
@@ -228,7 +228,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtCarikodu.Properties.ReadOnly = true;
             this.txtCarikodu.Size = new System.Drawing.Size(233, 22);
-            this.txtCarikodu.TabIndex = 1;
+            this.txtCarikodu.TabIndex = 3;
             // 
             // txtCariAdi
             // 
@@ -239,7 +239,7 @@
             this.txtCariAdi.Properties.Appearance.Options.UseBackColor = true;
             this.txtCariAdi.Properties.ReadOnly = true;
             this.txtCariAdi.Size = new System.Drawing.Size(233, 22);
-            this.txtCariAdi.TabIndex = 2;
+            this.txtCariAdi.TabIndex = 4;
             // 
             // labelControl3
             // 

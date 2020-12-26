@@ -82,7 +82,7 @@
             this.txtAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAdi.Name = "txtAdi";
             this.txtAdi.Size = new System.Drawing.Size(269, 22);
-            this.txtAdi.TabIndex = 1;
+            this.txtAdi.TabIndex = 2;
             // 
             // labelControl3
             // 
@@ -99,7 +99,7 @@
             this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(355, 118);
-            this.txtAciklama.TabIndex = 2;
+            this.txtAciklama.TabIndex = 3;
             // 
             // groupControl1
             // 
@@ -258,7 +258,7 @@
             this.txtKodu.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtKodu.Size = new System.Drawing.Size(266, 22);
-            this.txtKodu.TabIndex = 25;
+            this.txtKodu.TabIndex = 1;
             this.txtKodu.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtKodu_ButtonClick);
             // 
             // frmKasaTanitimKarti

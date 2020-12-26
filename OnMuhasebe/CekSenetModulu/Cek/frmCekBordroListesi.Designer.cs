@@ -139,7 +139,7 @@
             this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(271, 22);
-            this.txtAciklama.TabIndex = 4;
+            this.txtAciklama.TabIndex = 5;
             // 
             // labelControl8
             // 
@@ -158,7 +158,7 @@
             this.txtTarih.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTarih.Name = "txtTarih";
             this.txtTarih.Size = new System.Drawing.Size(271, 22);
-            this.txtTarih.TabIndex = 3;
+            this.txtTarih.TabIndex = 4;
             // 
             // txtNumara
             // 
@@ -168,7 +168,7 @@
             this.txtNumara.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNumara.Name = "txtNumara";
             this.txtNumara.Size = new System.Drawing.Size(271, 22);
-            this.txtNumara.TabIndex = 2;
+            this.txtNumara.TabIndex = 3;
             // 
             // labelControl2
             // 
@@ -187,7 +187,7 @@
             this.txtCariAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCariAdi.Name = "txtCariAdi";
             this.txtCariAdi.Size = new System.Drawing.Size(271, 22);
-            this.txtCariAdi.TabIndex = 1;
+            this.txtCariAdi.TabIndex = 2;
             // 
             // labelControl1
             // 
@@ -206,7 +206,7 @@
             this.txtCariKodu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCariKodu.Name = "txtCariKodu";
             this.txtCariKodu.Size = new System.Drawing.Size(271, 22);
-            this.txtCariKodu.TabIndex = 0;
+            this.txtCariKodu.TabIndex = 1;
             // 
             // btnTemizle
             // 

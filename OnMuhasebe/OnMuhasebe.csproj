@@ -478,10 +478,10 @@
     <Compile Include="frmMasaustu.Designer.cs">
       <DependentUpon>frmMasaustu.cs</DependentUpon>
     </Compile>
-    <Compile Include="KARIYER2012DataSet.Designer.cs">
+    <Compile Include="MuhasebeDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>KARIYER2012DataSet.xsd</DependentUpon>
+      <DependentUpon>MuhasebeDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="StokModulu\Classlar\clsStokKod5.cs" />
     <Compile Include="StokModulu\Classlar\clsStokKod4.cs" />
@@ -811,16 +811,16 @@
     <None Include="FaturaModulu\Dizaynlar\dsFATURALAR.xss">
       <DependentUpon>dsFATURALAR.xsd</DependentUpon>
     </None>
-    <None Include="KARIYER2012DataSet.xsc">
-      <DependentUpon>KARIYER2012DataSet.xsd</DependentUpon>
+    <None Include="MuhasebeDataSet.xsc">
+      <DependentUpon>MuhasebeDataSet.xsd</DependentUpon>
     </None>
-    <None Include="KARIYER2012DataSet.xsd">
+    <None Include="MuhasebeDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>KARIYER2012DataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>MuhasebeDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="KARIYER2012DataSet.xss">
-      <DependentUpon>KARIYER2012DataSet.xsd</DependentUpon>
+    <None Include="MuhasebeDataSet.xss">
+      <DependentUpon>MuhasebeDataSet.xsd</DependentUpon>
     </None>
     <None Include="KullaniciModulu\dsYETKILER.xsc">
       <DependentUpon>dsYETKILER.xsd</DependentUpon>
@@ -1054,6 +1054,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Banka_Listesi.ico" />
+    <None Include="Resources\Kullanıcı_Ekle.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

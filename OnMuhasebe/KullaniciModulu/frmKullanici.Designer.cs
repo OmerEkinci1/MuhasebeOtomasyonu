@@ -201,7 +201,7 @@
             this.txtSoyadi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSoyadi.Name = "txtSoyadi";
             this.txtSoyadi.Size = new System.Drawing.Size(450, 22);
-            this.txtSoyadi.TabIndex = 35;
+            this.txtSoyadi.TabIndex = 2;
             // 
             // txtUnvani
             // 
@@ -210,7 +210,7 @@
             this.txtUnvani.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUnvani.Name = "txtUnvani";
             this.txtUnvani.Size = new System.Drawing.Size(450, 22);
-            this.txtUnvani.TabIndex = 26;
+            this.txtUnvani.TabIndex = 3;
             // 
             // labelControl11
             // 
@@ -228,7 +228,7 @@
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(450, 22);
-            this.txtEmail.TabIndex = 26;
+            this.txtEmail.TabIndex = 4;
             // 
             // labelControl12
             // 
@@ -246,7 +246,7 @@
             this.txtTel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(450, 22);
-            this.txtTel.TabIndex = 26;
+            this.txtTel.TabIndex = 5;
             // 
             // labelControl4
             // 
@@ -273,7 +273,7 @@
             this.txtKullaniciAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(314, 22);
-            this.txtKullaniciAdi.TabIndex = 26;
+            this.txtKullaniciAdi.TabIndex = 6;
             // 
             // txtParola
             // 
@@ -282,7 +282,7 @@
             this.txtParola.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtParola.Name = "txtParola";
             this.txtParola.Size = new System.Drawing.Size(314, 22);
-            this.txtParola.TabIndex = 26;
+            this.txtParola.TabIndex = 7;
             // 
             // labelControl6
             // 
@@ -314,7 +314,7 @@
             this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(316, 89);
-            this.txtAciklama.TabIndex = 47;
+            this.txtAciklama.TabIndex = 8;
             // 
             // txtAdi
             // 
@@ -324,7 +324,7 @@
             this.txtAdi.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.txtAdi.Size = new System.Drawing.Size(450, 22);
-            this.txtAdi.TabIndex = 48;
+            this.txtAdi.TabIndex = 1;
             this.txtAdi.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.txtAdi_ButtonClick);
             // 
             // cheYonetici

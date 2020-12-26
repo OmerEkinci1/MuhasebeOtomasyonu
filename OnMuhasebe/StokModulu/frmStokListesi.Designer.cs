@@ -50,6 +50,11 @@
             this.btnTemizle = new DevExpress.XtraEditors.SimpleButton();
             this.btnAra = new DevExpress.XtraEditors.SimpleButton();
             this.Liste = new DevExpress.XtraGrid.GridControl();
+            this.SagMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.SagEkle = new System.Windows.Forms.ToolStripMenuItem();
+            this.SagGuncelle = new System.Windows.Forms.ToolStripMenuItem();
+            this.SagSil = new System.Windows.Forms.ToolStripMenuItem();
+            this.SagHareketler = new System.Windows.Forms.ToolStripMenuItem();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.ID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.STOKKODU = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -61,11 +66,6 @@
             this.KOD3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.KOD4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.KOD5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.SagMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.SagEkle = new System.Windows.Forms.ToolStripMenuItem();
-            this.SagGuncelle = new System.Windows.Forms.ToolStripMenuItem();
-            this.SagSil = new System.Windows.Forms.ToolStripMenuItem();
-            this.SagHareketler = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -79,8 +79,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtStokAdi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtStokKodu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Liste)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SagMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainerControl1
@@ -88,13 +88,14 @@
             this.splitContainerControl1.Collapsed = true;
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.xtraTabControl1);
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.Liste);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(779, 467);
-            this.splitContainerControl1.SplitterPosition = 259;
+            this.splitContainerControl1.Size = new System.Drawing.Size(939, 575);
+            this.splitContainerControl1.SplitterPosition = 302;
             this.splitContainerControl1.TabIndex = 0;
             this.splitContainerControl1.Text = "splitContainerControl1";
             // 
@@ -102,9 +103,10 @@
             // 
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl1.Location = new System.Drawing.Point(0, 0);
+            this.xtraTabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(259, 467);
+            this.xtraTabControl1.Size = new System.Drawing.Size(302, 575);
             this.xtraTabControl1.TabIndex = 0;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1});
@@ -127,31 +129,35 @@
             this.xtraTabPage1.Controls.Add(this.txtStokKodu);
             this.xtraTabPage1.Controls.Add(this.btnTemizle);
             this.xtraTabPage1.Controls.Add(this.btnAra);
+            this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(256, 442);
+            this.xtraTabPage1.Size = new System.Drawing.Size(295, 541);
             this.xtraTabPage1.Text = "Arama";
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(11, 344);
+            this.labelControl6.Location = new System.Drawing.Point(13, 423);
+            this.labelControl6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(31, 13);
+            this.labelControl6.Size = new System.Drawing.Size(37, 16);
             this.labelControl6.TabIndex = 10;
             this.labelControl6.Text = "Kod 5:";
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(11, 226);
+            this.labelControl4.Location = new System.Drawing.Point(13, 278);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(31, 13);
+            this.labelControl4.Size = new System.Drawing.Size(37, 16);
             this.labelControl4.TabIndex = 11;
             this.labelControl4.Text = "Kod 3:";
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(11, 285);
+            this.labelControl5.Location = new System.Drawing.Point(13, 351);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(31, 13);
+            this.labelControl5.Size = new System.Drawing.Size(37, 16);
             this.labelControl5.TabIndex = 12;
             this.labelControl5.Text = "Kod 4:";
             // 
@@ -159,16 +165,18 @@
             // 
             this.txtKod5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtKod5.Location = new System.Drawing.Point(11, 363);
+            this.txtKod5.Location = new System.Drawing.Point(13, 447);
+            this.txtKod5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKod5.Name = "txtKod5";
-            this.txtKod5.Size = new System.Drawing.Size(242, 20);
-            this.txtKod5.TabIndex = 4;
+            this.txtKod5.Size = new System.Drawing.Size(282, 22);
+            this.txtKod5.TabIndex = 7;
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(11, 167);
+            this.labelControl3.Location = new System.Drawing.Point(13, 206);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(31, 13);
+            this.labelControl3.Size = new System.Drawing.Size(37, 16);
             this.labelControl3.TabIndex = 13;
             this.labelControl3.Text = "Kod 2:";
             // 
@@ -176,25 +184,28 @@
             // 
             this.txtKod3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtKod3.Location = new System.Drawing.Point(11, 245);
+            this.txtKod3.Location = new System.Drawing.Point(13, 302);
+            this.txtKod3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKod3.Name = "txtKod3";
-            this.txtKod3.Size = new System.Drawing.Size(242, 20);
+            this.txtKod3.Size = new System.Drawing.Size(282, 22);
             this.txtKod3.TabIndex = 5;
             // 
             // txtKod4
             // 
             this.txtKod4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtKod4.Location = new System.Drawing.Point(11, 304);
+            this.txtKod4.Location = new System.Drawing.Point(13, 374);
+            this.txtKod4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKod4.Name = "txtKod4";
-            this.txtKod4.Size = new System.Drawing.Size(242, 20);
+            this.txtKod4.Size = new System.Drawing.Size(282, 22);
             this.txtKod4.TabIndex = 6;
             // 
             // labelControl8
             // 
-            this.labelControl8.Location = new System.Drawing.Point(11, 117);
+            this.labelControl8.Location = new System.Drawing.Point(13, 144);
+            this.labelControl8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(31, 13);
+            this.labelControl8.Size = new System.Drawing.Size(37, 16);
             this.labelControl8.TabIndex = 14;
             this.labelControl8.Text = "Kod 1:";
             // 
@@ -202,25 +213,28 @@
             // 
             this.txtKod2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtKod2.Location = new System.Drawing.Point(11, 186);
+            this.txtKod2.Location = new System.Drawing.Point(13, 229);
+            this.txtKod2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKod2.Name = "txtKod2";
-            this.txtKod2.Size = new System.Drawing.Size(242, 20);
-            this.txtKod2.TabIndex = 7;
+            this.txtKod2.Size = new System.Drawing.Size(282, 22);
+            this.txtKod2.TabIndex = 4;
             // 
             // txtKod1
             // 
             this.txtKod1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtKod1.Location = new System.Drawing.Point(11, 136);
+            this.txtKod1.Location = new System.Drawing.Point(13, 167);
+            this.txtKod1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKod1.Name = "txtKod1";
-            this.txtKod1.Size = new System.Drawing.Size(242, 20);
-            this.txtKod1.TabIndex = 8;
+            this.txtKod1.Size = new System.Drawing.Size(282, 22);
+            this.txtKod1.TabIndex = 3;
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(11, 73);
+            this.labelControl2.Location = new System.Drawing.Point(13, 90);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(43, 13);
+            this.labelControl2.Size = new System.Drawing.Size(52, 16);
             this.labelControl2.TabIndex = 2;
             this.labelControl2.Text = "Stok Adı:";
             // 
@@ -228,16 +242,18 @@
             // 
             this.txtStokAdi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtStokAdi.Location = new System.Drawing.Point(11, 92);
+            this.txtStokAdi.Location = new System.Drawing.Point(13, 113);
+            this.txtStokAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtStokAdi.Name = "txtStokAdi";
-            this.txtStokAdi.Size = new System.Drawing.Size(242, 20);
-            this.txtStokAdi.TabIndex = 1;
+            this.txtStokAdi.Size = new System.Drawing.Size(282, 22);
+            this.txtStokAdi.TabIndex = 2;
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(11, 18);
+            this.labelControl1.Location = new System.Drawing.Point(13, 22);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(52, 13);
+            this.labelControl1.Size = new System.Drawing.Size(62, 16);
             this.labelControl1.TabIndex = 2;
             this.labelControl1.Text = "Stok Kodu:";
             // 
@@ -245,27 +261,30 @@
             // 
             this.txtStokKodu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtStokKodu.Location = new System.Drawing.Point(11, 37);
+            this.txtStokKodu.Location = new System.Drawing.Point(13, 46);
+            this.txtStokKodu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtStokKodu.Name = "txtStokKodu";
-            this.txtStokKodu.Size = new System.Drawing.Size(242, 20);
+            this.txtStokKodu.Size = new System.Drawing.Size(282, 22);
             this.txtStokKodu.TabIndex = 1;
             // 
             // btnTemizle
             // 
-            this.btnTemizle.Image = ((System.Drawing.Image)(resources.GetObject("btnTemizle.Image")));
-            this.btnTemizle.Location = new System.Drawing.Point(92, 401);
+            this.btnTemizle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTemizle.ImageOptions.Image")));
+            this.btnTemizle.Location = new System.Drawing.Point(107, 494);
+            this.btnTemizle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTemizle.Name = "btnTemizle";
-            this.btnTemizle.Size = new System.Drawing.Size(89, 31);
+            this.btnTemizle.Size = new System.Drawing.Size(104, 38);
             this.btnTemizle.TabIndex = 0;
             this.btnTemizle.Text = "Temizle";
             this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // btnAra
             // 
-            this.btnAra.Image = global::OnMuhasebe.Properties.Resources.Ac;
-            this.btnAra.Location = new System.Drawing.Point(11, 401);
+            this.btnAra.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.Ac;
+            this.btnAra.Location = new System.Drawing.Point(13, 494);
+            this.btnAra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAra.Name = "btnAra";
-            this.btnAra.Size = new System.Drawing.Size(75, 31);
+            this.btnAra.Size = new System.Drawing.Size(87, 38);
             this.btnAra.TabIndex = 0;
             this.btnAra.Text = "Arama";
             this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
@@ -274,13 +293,54 @@
             // 
             this.Liste.ContextMenuStrip = this.SagMenu;
             this.Liste.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Liste.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Liste.Location = new System.Drawing.Point(0, 0);
             this.Liste.MainView = this.gridView1;
+            this.Liste.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Liste.Name = "Liste";
-            this.Liste.Size = new System.Drawing.Size(515, 467);
+            this.Liste.Size = new System.Drawing.Size(631, 575);
             this.Liste.TabIndex = 0;
             this.Liste.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
+            // 
+            // SagMenu
+            // 
+            this.SagMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.SagMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.SagEkle,
+            this.SagGuncelle,
+            this.SagSil,
+            this.SagHareketler});
+            this.SagMenu.Name = "SagMenu";
+            this.SagMenu.Size = new System.Drawing.Size(222, 100);
+            // 
+            // SagEkle
+            // 
+            this.SagEkle.Name = "SagEkle";
+            this.SagEkle.Size = new System.Drawing.Size(221, 24);
+            this.SagEkle.Text = "Ekle";
+            this.SagEkle.Click += new System.EventHandler(this.SagEkle_Click);
+            // 
+            // SagGuncelle
+            // 
+            this.SagGuncelle.Name = "SagGuncelle";
+            this.SagGuncelle.Size = new System.Drawing.Size(221, 24);
+            this.SagGuncelle.Text = "Güncelle";
+            this.SagGuncelle.Click += new System.EventHandler(this.SagGuncelle_Click);
+            // 
+            // SagSil
+            // 
+            this.SagSil.Name = "SagSil";
+            this.SagSil.Size = new System.Drawing.Size(221, 24);
+            this.SagSil.Text = "Sil";
+            this.SagSil.Click += new System.EventHandler(this.SagSil_Click);
+            // 
+            // SagHareketler
+            // 
+            this.SagHareketler.Name = "SagHareketler";
+            this.SagHareketler.Size = new System.Drawing.Size(221, 24);
+            this.SagHareketler.Text = "Stok Hareket Kayıtları";
+            this.SagHareketler.Click += new System.EventHandler(this.SagHareketler_Click);
             // 
             // gridView1
             // 
@@ -295,6 +355,7 @@
             this.KOD3,
             this.KOD4,
             this.KOD5});
+            this.gridView1.DetailHeight = 431;
             this.gridView1.GridControl = this.Liste;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ColumnAutoWidth = false;
@@ -305,17 +366,20 @@
             // 
             this.ID.Caption = "ID";
             this.ID.FieldName = "ID";
+            this.ID.MinWidth = 23;
             this.ID.Name = "ID";
             this.ID.OptionsColumn.AllowEdit = false;
             this.ID.OptionsColumn.AllowFocus = false;
             this.ID.OptionsColumn.AllowShowHide = false;
             this.ID.OptionsColumn.FixedWidth = true;
             this.ID.OptionsColumn.ReadOnly = true;
+            this.ID.Width = 87;
             // 
             // STOKKODU
             // 
             this.STOKKODU.Caption = "STOKKODU";
             this.STOKKODU.FieldName = "STOKKODU";
+            this.STOKKODU.MinWidth = 23;
             this.STOKKODU.Name = "STOKKODU";
             this.STOKKODU.OptionsColumn.AllowEdit = false;
             this.STOKKODU.OptionsColumn.AllowFocus = false;
@@ -323,24 +387,26 @@
             this.STOKKODU.OptionsColumn.ReadOnly = true;
             this.STOKKODU.Visible = true;
             this.STOKKODU.VisibleIndex = 0;
-            this.STOKKODU.Width = 150;
+            this.STOKKODU.Width = 175;
             // 
             // STOKADI
             // 
             this.STOKADI.Caption = "STOKADI";
             this.STOKADI.FieldName = "STOKADI";
+            this.STOKADI.MinWidth = 23;
             this.STOKADI.Name = "STOKADI";
             this.STOKADI.OptionsColumn.AllowEdit = false;
             this.STOKADI.OptionsColumn.AllowFocus = false;
             this.STOKADI.OptionsColumn.ReadOnly = true;
             this.STOKADI.Visible = true;
             this.STOKADI.VisibleIndex = 1;
-            this.STOKADI.Width = 300;
+            this.STOKADI.Width = 350;
             // 
             // SATISFIYAT1
             // 
             this.SATISFIYAT1.Caption = "SATISFIYAT1";
             this.SATISFIYAT1.FieldName = "SATISFIYAT1";
+            this.SATISFIYAT1.MinWidth = 23;
             this.SATISFIYAT1.Name = "SATISFIYAT1";
             this.SATISFIYAT1.OptionsColumn.AllowEdit = false;
             this.SATISFIYAT1.OptionsColumn.AllowFocus = false;
@@ -348,11 +414,13 @@
             this.SATISFIYAT1.OptionsColumn.ReadOnly = true;
             this.SATISFIYAT1.Visible = true;
             this.SATISFIYAT1.VisibleIndex = 2;
+            this.SATISFIYAT1.Width = 87;
             // 
             // MIKTAR
             // 
             this.MIKTAR.Caption = "MIKTAR";
             this.MIKTAR.FieldName = "MIKTAR";
+            this.MIKTAR.MinWidth = 23;
             this.MIKTAR.Name = "MIKTAR";
             this.MIKTAR.OptionsColumn.AllowEdit = false;
             this.MIKTAR.OptionsColumn.AllowFocus = false;
@@ -360,11 +428,13 @@
             this.MIKTAR.OptionsColumn.ReadOnly = true;
             this.MIKTAR.Visible = true;
             this.MIKTAR.VisibleIndex = 3;
+            this.MIKTAR.Width = 87;
             // 
             // KOD1
             // 
             this.KOD1.Caption = "KOD1";
             this.KOD1.FieldName = "KOD1";
+            this.KOD1.MinWidth = 23;
             this.KOD1.Name = "KOD1";
             this.KOD1.OptionsColumn.AllowEdit = false;
             this.KOD1.OptionsColumn.AllowFocus = false;
@@ -372,12 +442,13 @@
             this.KOD1.OptionsColumn.ReadOnly = true;
             this.KOD1.Visible = true;
             this.KOD1.VisibleIndex = 4;
-            this.KOD1.Width = 120;
+            this.KOD1.Width = 140;
             // 
             // KOD2
             // 
             this.KOD2.Caption = "KOD2";
             this.KOD2.FieldName = "KOD2";
+            this.KOD2.MinWidth = 23;
             this.KOD2.Name = "KOD2";
             this.KOD2.OptionsColumn.AllowEdit = false;
             this.KOD2.OptionsColumn.AllowFocus = false;
@@ -385,12 +456,13 @@
             this.KOD2.OptionsColumn.ReadOnly = true;
             this.KOD2.Visible = true;
             this.KOD2.VisibleIndex = 5;
-            this.KOD2.Width = 120;
+            this.KOD2.Width = 140;
             // 
             // KOD3
             // 
             this.KOD3.Caption = "KOD3";
             this.KOD3.FieldName = "KOD3";
+            this.KOD3.MinWidth = 23;
             this.KOD3.Name = "KOD3";
             this.KOD3.OptionsColumn.AllowEdit = false;
             this.KOD3.OptionsColumn.AllowFocus = false;
@@ -398,12 +470,13 @@
             this.KOD3.OptionsColumn.ReadOnly = true;
             this.KOD3.Visible = true;
             this.KOD3.VisibleIndex = 6;
-            this.KOD3.Width = 120;
+            this.KOD3.Width = 140;
             // 
             // KOD4
             // 
             this.KOD4.Caption = "KOD4";
             this.KOD4.FieldName = "KOD4";
+            this.KOD4.MinWidth = 23;
             this.KOD4.Name = "KOD4";
             this.KOD4.OptionsColumn.AllowEdit = false;
             this.KOD4.OptionsColumn.AllowFocus = false;
@@ -411,12 +484,13 @@
             this.KOD4.OptionsColumn.ReadOnly = true;
             this.KOD4.Visible = true;
             this.KOD4.VisibleIndex = 7;
-            this.KOD4.Width = 120;
+            this.KOD4.Width = 140;
             // 
             // KOD5
             // 
             this.KOD5.Caption = "KOD5";
             this.KOD5.FieldName = "KOD5";
+            this.KOD5.MinWidth = 23;
             this.KOD5.Name = "KOD5";
             this.KOD5.OptionsColumn.AllowEdit = false;
             this.KOD5.OptionsColumn.AllowFocus = false;
@@ -424,52 +498,15 @@
             this.KOD5.OptionsColumn.ReadOnly = true;
             this.KOD5.Visible = true;
             this.KOD5.VisibleIndex = 8;
-            this.KOD5.Width = 120;
-            // 
-            // SagMenu
-            // 
-            this.SagMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.SagEkle,
-            this.SagGuncelle,
-            this.SagSil,
-            this.SagHareketler});
-            this.SagMenu.Name = "SagMenu";
-            this.SagMenu.Size = new System.Drawing.Size(187, 114);
-            // 
-            // SagEkle
-            // 
-            this.SagEkle.Name = "SagEkle";
-            this.SagEkle.Size = new System.Drawing.Size(186, 22);
-            this.SagEkle.Text = "Ekle";
-            this.SagEkle.Click += new System.EventHandler(this.SagEkle_Click);
-            // 
-            // SagGuncelle
-            // 
-            this.SagGuncelle.Name = "SagGuncelle";
-            this.SagGuncelle.Size = new System.Drawing.Size(186, 22);
-            this.SagGuncelle.Text = "Güncelle";
-            this.SagGuncelle.Click += new System.EventHandler(this.SagGuncelle_Click);
-            // 
-            // SagSil
-            // 
-            this.SagSil.Name = "SagSil";
-            this.SagSil.Size = new System.Drawing.Size(186, 22);
-            this.SagSil.Text = "Sil";
-            this.SagSil.Click += new System.EventHandler(this.SagSil_Click);
-            // 
-            // SagHareketler
-            // 
-            this.SagHareketler.Name = "SagHareketler";
-            this.SagHareketler.Size = new System.Drawing.Size(186, 22);
-            this.SagHareketler.Text = "Stok Hareket Kayıtları";
-            this.SagHareketler.Click += new System.EventHandler(this.SagHareketler_Click);
+            this.KOD5.Width = 140;
             // 
             // frmStokListesi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(779, 467);
+            this.ClientSize = new System.Drawing.Size(939, 575);
             this.Controls.Add(this.splitContainerControl1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmStokListesi";
             this.Text = "Stok Listesi";
             this.Load += new System.EventHandler(this.frmStokListesi_Load);
@@ -487,8 +524,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtStokAdi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtStokKodu.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Liste)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.SagMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

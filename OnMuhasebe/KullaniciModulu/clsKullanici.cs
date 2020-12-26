@@ -11,7 +11,6 @@ namespace OnMuhasebe.KullaniciModulu
         OnMuhasebe.Classlar.Veritabani Dbase = new Classlar.Veritabani();
         public Boolean Ekle(string Adi, string Soyadi, string Unvani, string Email, string Tel, string KullaniciAdi, string Parola, string Admin, string Aciklama, string UserId)
         {
-            //PROCEDUR
             string sql = "EXECUTE SP_KULLANICI_EKLE   '" + Adi + "'  ,'" + Soyadi + "'  ,'" + Unvani + "'  ,'" + Email + "'  ,'" + Tel + "'  ,'" + KullaniciAdi + "'  ,'" + Parola + "' ," + Admin + " ,'" + Aciklama + "'  ," + UserId;
 
             return Dbase.Isle(sql);

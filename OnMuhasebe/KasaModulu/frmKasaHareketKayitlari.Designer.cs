@@ -359,7 +359,7 @@
             this.txtKasaKodu.Name = "txtKasaKodu";
             this.txtKasaKodu.Properties.ReadOnly = true;
             this.txtKasaKodu.Size = new System.Drawing.Size(450, 22);
-            this.txtKasaKodu.TabIndex = 12;
+            this.txtKasaKodu.TabIndex = 1;
             // 
             // labelControl1
             // 
@@ -387,7 +387,7 @@
             this.txtAdi.Name = "txtAdi";
             this.txtAdi.Properties.ReadOnly = true;
             this.txtAdi.Size = new System.Drawing.Size(492, 22);
-            this.txtAdi.TabIndex = 13;
+            this.txtAdi.TabIndex = 2;
             // 
             // groupControl1
             // 

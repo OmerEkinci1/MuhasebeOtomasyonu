@@ -125,7 +125,7 @@
             this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAciklama.Name = "txtAciklama";
             this.txtAciklama.Size = new System.Drawing.Size(274, 22);
-            this.txtAciklama.TabIndex = 2;
+            this.txtAciklama.TabIndex = 3;
             // 
             // labelControl2
             // 
@@ -144,7 +144,7 @@
             this.txtAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAdi.Name = "txtAdi";
             this.txtAdi.Size = new System.Drawing.Size(274, 22);
-            this.txtAdi.TabIndex = 1;
+            this.txtAdi.TabIndex = 2;
             // 
             // labelControl1
             // 
@@ -163,7 +163,7 @@
             this.txtKasaKodu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKasaKodu.Name = "txtKasaKodu";
             this.txtKasaKodu.Size = new System.Drawing.Size(274, 22);
-            this.txtKasaKodu.TabIndex = 0;
+            this.txtKasaKodu.TabIndex = 1;
             // 
             // btnTemizle
             // 

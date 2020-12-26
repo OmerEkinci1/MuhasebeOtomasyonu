@@ -152,7 +152,7 @@
             this.txtTarih.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtTarih.Size = new System.Drawing.Size(182, 22);
-            this.txtTarih.TabIndex = 42;
+            this.txtTarih.TabIndex = 4;
             // 
             // txtBelgeNo
             // 
@@ -160,7 +160,7 @@
             this.txtBelgeNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBelgeNo.Name = "txtBelgeNo";
             this.txtBelgeNo.Size = new System.Drawing.Size(182, 22);
-            this.txtBelgeNo.TabIndex = 44;
+            this.txtBelgeNo.TabIndex = 1;
             // 
             // txtKasaKodu
             // 
@@ -170,7 +170,7 @@
             this.txtKasaKodu.Name = "txtKasaKodu";
             this.txtKasaKodu.Properties.ReadOnly = true;
             this.txtKasaKodu.Size = new System.Drawing.Size(450, 22);
-            this.txtKasaKodu.TabIndex = 40;
+            this.txtKasaKodu.TabIndex = 2;
             // 
             // labelControl6
             // 
@@ -225,7 +225,7 @@
             this.txtKasaAdi.Name = "txtKasaAdi";
             this.txtKasaAdi.Properties.ReadOnly = true;
             this.txtKasaAdi.Size = new System.Drawing.Size(492, 22);
-            this.txtKasaAdi.TabIndex = 41;
+            this.txtKasaAdi.TabIndex = 3;
             // 
             // txtTutar
             // 
@@ -233,7 +233,7 @@
             this.txtTutar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTutar.Name = "txtTutar";
             this.txtTutar.Size = new System.Drawing.Size(182, 22);
-            this.txtTutar.TabIndex = 45;
+            this.txtTutar.TabIndex = 5;
             // 
             // btnKasaSec
             // 
