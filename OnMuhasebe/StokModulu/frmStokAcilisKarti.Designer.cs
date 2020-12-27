@@ -64,7 +64,7 @@
             // 
             this.raGiris.AutoSize = true;
             this.raGiris.Checked = true;
-            this.raGiris.Location = new System.Drawing.Point(106, 276);
+            this.raGiris.Location = new System.Drawing.Point(148, 279);
             this.raGiris.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.raGiris.Name = "raGiris";
             this.raGiris.Size = new System.Drawing.Size(95, 21);
@@ -138,7 +138,7 @@
             // raCikis
             // 
             this.raCikis.AutoSize = true;
-            this.raCikis.Location = new System.Drawing.Point(246, 276);
+            this.raCikis.Location = new System.Drawing.Point(288, 279);
             this.raCikis.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.raCikis.Name = "raCikis";
             this.raCikis.Size = new System.Drawing.Size(97, 21);
@@ -149,7 +149,7 @@
             // txtTarih
             // 
             this.txtTarih.EditValue = null;
-            this.txtTarih.Location = new System.Drawing.Point(106, 151);
+            this.txtTarih.Location = new System.Drawing.Point(148, 154);
             this.txtTarih.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTarih.Name = "txtTarih";
             this.txtTarih.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -161,7 +161,7 @@
             // 
             // txtBelgeNo
             // 
-            this.txtBelgeNo.Location = new System.Drawing.Point(106, 17);
+            this.txtBelgeNo.Location = new System.Drawing.Point(148, 20);
             this.txtBelgeNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBelgeNo.Name = "txtBelgeNo";
             this.txtBelgeNo.Size = new System.Drawing.Size(182, 22);
@@ -169,7 +169,7 @@
             // 
             // txtMiktar
             // 
-            this.txtMiktar.Location = new System.Drawing.Point(106, 194);
+            this.txtMiktar.Location = new System.Drawing.Point(148, 197);
             this.txtMiktar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMiktar.Name = "txtMiktar";
             this.txtMiktar.Size = new System.Drawing.Size(182, 22);
@@ -178,7 +178,7 @@
             // btnStokSec
             // 
             this.btnStokSec.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnStokSec.ImageOptions.Image")));
-            this.btnStokSec.Location = new System.Drawing.Point(563, 59);
+            this.btnStokSec.Location = new System.Drawing.Point(605, 62);
             this.btnStokSec.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnStokSec.Name = "btnStokSec";
             this.btnStokSec.Size = new System.Drawing.Size(35, 34);
@@ -188,7 +188,7 @@
             // txtStokKodu
             // 
             this.txtStokKodu.EditValue = "";
-            this.txtStokKodu.Location = new System.Drawing.Point(106, 64);
+            this.txtStokKodu.Location = new System.Drawing.Point(148, 67);
             this.txtStokKodu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtStokKodu.Name = "txtStokKodu";
             this.txtStokKodu.Properties.ReadOnly = true;
@@ -197,7 +197,7 @@
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(13, 21);
+            this.labelControl6.Location = new System.Drawing.Point(55, 24);
             this.labelControl6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(55, 16);
@@ -206,7 +206,7 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(13, 203);
+            this.labelControl4.Location = new System.Drawing.Point(55, 206);
             this.labelControl4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(35, 16);
@@ -215,7 +215,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(13, 68);
+            this.labelControl1.Location = new System.Drawing.Point(55, 71);
             this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(62, 16);
@@ -224,7 +224,7 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(13, 160);
+            this.labelControl3.Location = new System.Drawing.Point(55, 163);
             this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(30, 16);
@@ -233,7 +233,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(13, 112);
+            this.labelControl2.Location = new System.Drawing.Point(55, 115);
             this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(62, 16);
@@ -243,7 +243,7 @@
             // txtStokAdi
             // 
             this.txtStokAdi.EditValue = "";
-            this.txtStokAdi.Location = new System.Drawing.Point(106, 108);
+            this.txtStokAdi.Location = new System.Drawing.Point(148, 111);
             this.txtStokAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtStokAdi.Name = "txtStokAdi";
             this.txtStokAdi.Properties.ReadOnly = true;
@@ -252,7 +252,7 @@
             // 
             // labelControl7
             // 
-            this.labelControl7.Location = new System.Drawing.Point(14, 238);
+            this.labelControl7.Location = new System.Drawing.Point(56, 241);
             this.labelControl7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(27, 16);
@@ -261,7 +261,7 @@
             // 
             // txtFiyat
             // 
-            this.txtFiyat.Location = new System.Drawing.Point(107, 234);
+            this.txtFiyat.Location = new System.Drawing.Point(149, 237);
             this.txtFiyat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtFiyat.Name = "txtFiyat";
             this.txtFiyat.Size = new System.Drawing.Size(182, 22);

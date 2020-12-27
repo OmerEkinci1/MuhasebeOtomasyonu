@@ -33,7 +33,7 @@ namespace OnMuhasebe.StokModulu
 
         private void frmStokListesi_Load(object sender, EventArgs e)
         {
-           
+            Listele();
         }
 
         private void btnAra_Click(object sender, EventArgs e)
@@ -53,7 +53,6 @@ namespace OnMuhasebe.StokModulu
         }
         void Sec()
         {
-            //griddeki seçili idyi aldık
             SecilenId = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "ID").ToString();
         }
 

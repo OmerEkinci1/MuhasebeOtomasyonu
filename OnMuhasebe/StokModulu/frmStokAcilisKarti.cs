@@ -60,7 +60,7 @@ namespace OnMuhasebe.StokModulu
         }
         private void btnStokSec_Click(object sender, EventArgs e)
         {
-            UrunId = Ekranlar.StokListesi();
+            UrunId = Ekranlar.StokListesi(true);
             if (UrunId == "")
             {
                 return;

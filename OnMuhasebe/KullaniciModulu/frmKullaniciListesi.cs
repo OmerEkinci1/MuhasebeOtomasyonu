@@ -23,14 +23,17 @@ namespace OnMuhasebe.KullaniciModulu
         private void frmKullaniciListesi_Load(object sender, EventArgs e)
         {
 
-
+            Listele();
         }
 
-        
+        void Listele()
+        {
+            Liste.DataSource = Kullanici.Listele(txtAdi.Text, txtSoyadi.Text, txtUnvan.Text, txtEmail.Text);
+        }
 
         private void btnAra_Click(object sender, EventArgs e)
         {
-            Liste.DataSource = Kullanici.Listele(txtAdi.Text, txtSoyadi.Text, txtUnvan.Text, txtEmail.Text);
+            Listele();
         }
 
         string Sec()

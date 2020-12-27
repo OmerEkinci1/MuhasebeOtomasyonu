@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="file:///C:/Users/ekinc/OneDrive/Masa%C3%BCst%C3%BC/OnMuhasebe/OnMuhasebe/publish/OnMuhasebe.application" />
+    <deploymentProvider codebase="file:///C:/Users/ekinc/OneDrive/Masa%C3%BCst%C3%BC/Muhasebe/OnMuhasebe/publish/OnMuhasebe.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>naOVZOy/ZZLAlR7zN8bD6SElMZfHNZolhpZSkGUkQPg=</dsig:DigestValue>
+        <dsig:DigestValue>wRWFivyjKpk9Tdb4RhuNoeUT9ucZK+1+uNG/VDXk3m4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

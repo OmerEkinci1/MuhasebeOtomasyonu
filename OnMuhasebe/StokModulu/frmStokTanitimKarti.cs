@@ -125,7 +125,7 @@ namespace OnMuhasebe.StokModulu
         public void Ac(string Id)
         {
             UrunId = Id;
-            DataRow Satir = Stok.Ac(UrunId);//stok listesinden gelen id yi alıyoruz ve o idye ait stok satırını getiriyoruz
+            DataRow Satir = Stok.Ac(UrunId);
             txtStokKodu.Text = Satir["STOKKODU"].ToString();
             txtStokAdi.Text = Satir["STOKADI"].ToString();
             txtStokAdiIng.Text = Satir["INGILIZCEISIM"].ToString();
@@ -142,12 +142,14 @@ namespace OnMuhasebe.StokModulu
             txtBarkod.Text = Satir["BARKOD"].ToString();
             txtSatisFiyati1.Text = Satir["SATISFIYAT1"].ToString();
             txtSatisFiyati2.Text = Satir["SATISFIYAT2"].ToString();
-            Edit = true;//güncelleme için
+            Edit = true;
         }
         private void btnYeni_Click(object sender, EventArgs e)
         {
-            Edit = false;//kaydetme için
+            Edit = false;
+            Stok.Ekle(txtStokKodu.Text, txtStokAdi.Text, txtStokAdiIng.Text, StokKod1.IdAl(btnKod1Sec.Text), StokKod2.IdAl(btnKod2Sec.Text), StokKod3.IdAl(btnKod3Sec.Text), StokKod4.IdAl(btnKod4Sec.Text), StokKod5.IdAl(btnKod5Sec.Text), txtBirim.Text, txtBarkod.Text, txtAlisKdv.Text, txtSatisKdv.Text, txtAlisFiyati1.Text, txtAlisFiyati2.Text, txtSatisFiyati1.Text, txtSatisFiyati2.Text, frmAnaForm.UserId);
             Temizle();
+            Mesajlar.Bilgi("Yeni stok açılmıştır.");
         }
     }
 }

@@ -168,5 +168,10 @@ namespace OnMuhasebe.BankaModulu
         {
             this.Close();
         }
+
+        private void btnYeni_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

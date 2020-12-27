@@ -49,6 +49,7 @@ namespace OnMuhasebe.CariModulu
                 //Güncelleme için
 
                 Cari.Guncelle(CariId, txtCariKodu.Text, txtCariIsim.Text, txtAdres.Text, txtIl.Text, txtIlce.Text, txtUlke.Text, txtTel.Text, txtFax.Text, txtVergiDairesi.Text, txtVergiNumarasi.Text, txtTc.Text, txtPostaKodu.Text, txtEmail.Text, txtWeb.Text, Tipi, frmAnaForm.UserId);
+                Mesajlar.Bilgi("Kaydınız güncellenmiştir.");
                 Temizle();
             }
             else
@@ -56,6 +57,7 @@ namespace OnMuhasebe.CariModulu
                 //kaydetme için
 
                 Cari.Ekle(txtCariKodu.Text, txtCariIsim.Text, txtAdres.Text, txtIl.Text, txtIlce.Text, txtUlke.Text, txtTel.Text, txtFax.Text, txtVergiDairesi.Text, txtVergiNumarasi.Text, txtTc.Text, txtPostaKodu.Text, txtEmail.Text, txtWeb.Text, Tipi, frmAnaForm.UserId);
+                Mesajlar.Bilgi("Kaydınız gerçekleşmiştir.");
                 Temizle();
 
             }

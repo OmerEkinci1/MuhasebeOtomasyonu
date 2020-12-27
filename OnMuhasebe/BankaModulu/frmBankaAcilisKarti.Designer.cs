@@ -92,6 +92,7 @@
             this.btnYeni.Size = new System.Drawing.Size(140, 43);
             this.btnYeni.TabIndex = 0;
             this.btnYeni.Text = "Yeni";
+            this.btnYeni.Click += new System.EventHandler(this.btnYeni_Click);
             // 
             // simpleButton5
             // 

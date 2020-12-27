@@ -188,8 +188,13 @@ namespace OnMuhasebe.Classlar
                 frm.Show();
                 return "";
             }
+        }
 
-
+        public string StokListesi2(Boolean Sec = false)
+        {
+            OnMuhasebe.StokModulu.frmStokListesi frm = new StokModulu.frmStokListesi();
+            frm.Show();
+            return "";
         }
 
         public string CariListesiAc(Boolean Dialog = true)

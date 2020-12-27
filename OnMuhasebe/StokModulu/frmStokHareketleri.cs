@@ -26,7 +26,7 @@ namespace OnMuhasebe.StokModulu
 
         private void frmStokHareketleri_Load(object sender, EventArgs e)
         {
-
+            
         }
 
 
@@ -39,28 +39,44 @@ namespace OnMuhasebe.StokModulu
 
         void StokSec()
         {
-            UrunId = Ekranlar.StokListesi(true);
-            if (UrunId == "")
+            try
             {
-                return;
-            }
+                UrunId = Ekranlar.StokListesi(true);
+                if (UrunId == "")
+                {
+                    return;
+                }
 
-            Ac(UrunId);
+                Ac(UrunId);
+            }
+            catch (Exception ex) 
+            {
+
+                MessageBox.Show(ex.Message);
+            }
            
         }
 
 
         public void Ac(string Id)
         {
-            UrunId = Id;
-            DataRow Satir = Stok.Ac(UrunId);//stok listesinden gelen id yi alıyoruz ve o idye ait stok satırını getiriyoruz
+            try
+            {
+                UrunId = Id;
+                DataRow Satir = Stok.Ac(UrunId);//stok listesinden gelen id yi alıyoruz ve o idye ait stok satırını getiriyoruz
 
-            SecilenStokKodu = Satir["STOKKODU"].ToString();
+                SecilenStokKodu = Satir["STOKKODU"].ToString();
 
-            txtStokKodu.Text = SecilenStokKodu;
-            txtStokismi.Text = Satir["STOKADI"].ToString();
-            Listele();
-            GetStokBakiye(SecilenStokKodu);
+                txtStokKodu.Text = SecilenStokKodu;
+                txtStokismi.Text = Satir["STOKADI"].ToString();
+                Listele();
+                GetStokBakiye(SecilenStokKodu);
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
         } 
 
         private void btnStokSec_Click(object sender, EventArgs e)
@@ -75,23 +91,38 @@ namespace OnMuhasebe.StokModulu
 
         void GetStokBakiye(string StokKodu)
         {
-            DataRow Satir = Hareketler.StokBakiye(StokKodu);
-            txtToplamCikis.Text = Satir["CIKIS"].ToString();
-            txtToplamGiris.Text= Satir["GIRIS"].ToString();
-            txtBakiye.Text= Satir["BAKIYE"].ToString();
+            try
+            {
+                DataRow Satir = Hareketler.StokBakiye(StokKodu);
+                txtToplamCikis.Text = Satir["CIKIS"].ToString();
+                txtToplamGiris.Text = Satir["GIRIS"].ToString();
+                txtBakiye.Text = Satir["BAKIYE"].ToString();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
 
         }
 
         private void gridView1_DoubleClick(object sender, EventArgs e)
         {
-            string Tipi = gridView1.GetRowCellValue(gridView1.FocusedRowHandle,"TIPI").ToString();
-            if (Tipi=="A")//yani devir işlemi ise
+            try
             {
-                string AcilisKartiId = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "ID").ToString();
+                string Tipi = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "TIPI").ToString();
+                if (Tipi == "A")//yani devir işlemi ise
+                {
+                    string AcilisKartiId = gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "ID").ToString();
 
 
-              //  MessageBox.Show(AcilisKartiId);
-                Ekranlar.StokAcilisKarti(AcilisKartiId, true);
+                    //  MessageBox.Show(AcilisKartiId);
+                    Ekranlar.StokAcilisKarti(AcilisKartiId, true);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }

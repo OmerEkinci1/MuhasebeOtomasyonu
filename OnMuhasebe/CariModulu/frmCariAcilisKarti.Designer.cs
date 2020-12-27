@@ -41,7 +41,6 @@
             this.raAlacak = new System.Windows.Forms.RadioButton();
             this.raBorc = new System.Windows.Forms.RadioButton();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
             this.btnSil = new DevExpress.XtraEditors.SimpleButton();
@@ -174,7 +173,6 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.simpleButton2);
             this.panelControl1.Controls.Add(this.simpleButton5);
             this.panelControl1.Controls.Add(this.btnKaydet);
             this.panelControl1.Controls.Add(this.btnSil);
@@ -185,22 +183,11 @@
             this.panelControl1.Size = new System.Drawing.Size(643, 59);
             this.panelControl1.TabIndex = 23;
             // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton2.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.Yeni24x24;
-            this.simpleButton2.Location = new System.Drawing.Point(22, 6);
-            this.simpleButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(140, 43);
-            this.simpleButton2.TabIndex = 0;
-            this.simpleButton2.Text = "Yeni";
-            // 
             // simpleButton5
             // 
             this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.simpleButton5.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.Kapat24x24;
-            this.simpleButton5.Location = new System.Drawing.Point(477, 6);
+            this.simpleButton5.Location = new System.Drawing.Point(417, 10);
             this.simpleButton5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Size = new System.Drawing.Size(140, 43);
@@ -212,7 +199,7 @@
             // 
             this.btnKaydet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnKaydet.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.Kaydet24x241;
-            this.btnKaydet.Location = new System.Drawing.Point(169, 6);
+            this.btnKaydet.Location = new System.Drawing.Point(109, 10);
             this.btnKaydet.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(140, 43);
@@ -224,7 +211,7 @@
             // 
             this.btnSil.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSil.ImageOptions.Image = global::OnMuhasebe.Properties.Resources.Sil24x24;
-            this.btnSil.Location = new System.Drawing.Point(326, 6);
+            this.btnSil.Location = new System.Drawing.Point(266, 10);
             this.btnSil.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(140, 43);
@@ -328,7 +315,6 @@
         private System.Windows.Forms.RadioButton raAlacak;
         private System.Windows.Forms.RadioButton raBorc;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
         private DevExpress.XtraEditors.SimpleButton btnKaydet;
         private DevExpress.XtraEditors.SimpleButton btnSil;

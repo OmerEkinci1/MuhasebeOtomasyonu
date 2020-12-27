@@ -417,7 +417,6 @@ namespace OnMuhasebe.FaturaModulu.Satis
             }
         }
 
-
         string AcilacakFaturaNo = "-1";
         Classlar.clsSatisFaturasi SatisFaturasi = new Classlar.clsSatisFaturasi();
         bool FaturaSecildiMi = false;
@@ -469,16 +468,6 @@ namespace OnMuhasebe.FaturaModulu.Satis
                     }
 
                 }
-
-
-
-
-
-
-
-
-
-
 
                 FaturaSecildiMi = true;//Hesapla fonksiyonunda null referennces hatasını gidermek için böyle bir yol izledim.
                 Liste.DataSource = SatisFaturasi.KalemleriAc(AcilacakFaturaNo);
@@ -533,8 +522,6 @@ namespace OnMuhasebe.FaturaModulu.Satis
                 txtHedef.Text = SecilenKasaAdi;
             }
 
-
-
         }
 
         OnMuhasebe.BankaModulu.Classlar.clsBanka Banka = new BankaModulu.Classlar.clsBanka();
@@ -546,7 +533,6 @@ namespace OnMuhasebe.FaturaModulu.Satis
             DataRow Satir = Banka.Ac(SecilenBankaId);
             SecilenBankaAdi = Satir["BANKAADI"].ToString();
             txtHedef.Text = SecilenBankaAdi;
-
 
         }
 
@@ -592,5 +578,6 @@ namespace OnMuhasebe.FaturaModulu.Satis
                 MessageBox.Show("selamün hello");
             }
         }
+
     }
 }

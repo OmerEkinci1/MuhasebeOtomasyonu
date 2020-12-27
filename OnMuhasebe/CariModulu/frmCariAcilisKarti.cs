@@ -82,12 +82,14 @@ namespace OnMuhasebe.CariModulu
             if (Edit == true)//güncelleme
             {
                 Hareketler.CariAcilisKartiGuncelle(SecilenID, txtCariKodu.Text, txtBelgeNo.Text, Borc, Alacak, txtTarih.EditValue.ToString(), txtAciklama.Text);
+                Mesajlar.Bilgi("Kaydınız gerçekleşmiştir.");
             }
             else
             {//YENİ KAYIT
 
 
                 Hareketler.CariAcilisKarti(txtCariKodu.Text, txtBelgeNo.Text, Borc, Alacak, txtTarih.EditValue.ToString(), txtAciklama.Text);
+                Mesajlar.Bilgi("Kaydınız gerçekleşmiştir.");
 
             }
 
@@ -178,6 +180,11 @@ namespace OnMuhasebe.CariModulu
         private void simpleButton5_Click(object sender, EventArgs e)
         {
             Temizle();
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
